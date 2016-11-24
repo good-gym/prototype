@@ -2,7 +2,7 @@ require "ostruct"
 
 module VerifyHelper
   def runner
-    runner = OpenStruct.new(references: [])
+    OpenStruct.new(current_page.metadata[:page][:runner])
   end
 
   def membership_flow_path
