@@ -1,0 +1,16 @@
+.footer-slash
+%footer
+  .container
+    .row
+      .col-md-3#supporters
+        %h5 Supported by:
+        %p
+          = link_to image_tag('bt_logo.png'), 'http://www.btplc.com/'
+          = link_to image_tag('nb_logo.png'), 'http://www.newbalance.co.uk/'
+      .col-md-3.offset-md-6#good-gym
+        = link_to image_tag('goodgym_white.png', height: '100'), '/'
+        %div
+          %p
+            = link_to('Reg. Charity 1160988', charity_path)
+            %br
+            = link_to("Contact us", contact_path)

@@ -1,0 +1,26 @@
+footer {
+  padding-top: 1rem;
+  background-color: $brand-primary;
+  color: white;
+
+  a, a:hover {
+    color: white;
+  }
+
+  #supporters {
+    padding-top: 2rem;
+    img {
+      height: 2rem;
+    }
+  }
+  #good-gym {
+    img {
+      margin-bottom: 1rem;
+    }
+  }
+}
+.footer-slash {
+  width: 100%;
+  height: 5rem;
+  background-image: linear-gradient(to bottom right, white, white 50%, $brand-primary 50%, $brand-primary);
+}
