@@ -19,3 +19,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'adellesans';
+    src: font_url('adellesans-bold-webfont.woff2') format('woff2'),
+         font_url('adellesans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
