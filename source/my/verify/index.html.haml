@@ -1,0 +1,84 @@
+.text-xs-center
+  %h1
+    Welcome to GoodGym
+    %em= runner.first_name
+  = image_tag "mission-verified.png", width: "90", height: "100"
+  - if runner.wants_pairing?
+    %h2
+      Get Coach Verified
+      %br
+      %small to start running for older people
+    %p.lead
+      Our coaches are isolated older people, because of this you will need to
+      become coach verified:
+  - else
+    %h2
+      Get Mission Verified
+      %br
+      %small to start running to an older people
+    %p.lead
+      Missions are typically run for isolated older people, because of this
+      you will need to complete the following:
+
+#accordion{ "aria-multiselectable": "true", role: "tablist" }
+  .card
+    .card-header#headingMembership{ role: "tab" }
+      .float-xs-right
+        - if runner.is_member?
+          Completed
+        - else
+          Required
+      %h5.mb-0
+        %a.collapsed{ "aria-controls": "membership", "aria-expanded": "false", "data-parent": "#accordion", "data-toggle": "collapse", href: "#membership" }
+          Membership
+    .collapse#membership{ "aria-labelledby": "headingMembership", role: "tabpanel" }
+      .card-block
+        %ul
+          %li Setup your donation or assisted place
+          %li Get your t-shirt and welcome pack
+          %li Set your training goals
+          %li Connect with your area trainer
+        = link_to "Become a member", membership_flow_path, class: "btn btn-primary"
+  = partial :references
+  .card
+    .card-header#headingTraining{ role: "tab" }
+      %h5.mb-0
+        %a.collapsed{ "aria-controls": "training", "aria-expanded": "false", "data-parent": "#accordion", "data-toggle": "collapse", href: "#training" }
+          Training
+    .collapse#training{ "aria-labelledby": "headingTraining",  role: "tabpanel" }
+      .card-block
+        - if runner.wants_pairing?
+          .float-xs-right
+            - if runner.training_statuses.coach.completed.any?
+              Completed
+            - elsif runner.training_statuses.coach.any?
+              In Progress
+            - else
+              Required
+          %h6 Coach training
+          - runner.training_statuses.coach.each do |training_status|
+            %ul
+              - training_status.training.modules.each do |m|
+                %li
+                  = m.name
+        - if runner.wants_mission?
+          .float-xs-right
+            - if runner.training_statuses.mission.completed.any?
+              Completed
+            - elsif runner.training_statuses.mission.any?
+              In Progress
+            - else
+              Required
+          %h6 Mission training
+          %ul
+          - runner.training_statuses.mission.each do |training_status|
+            = training_status.inspect
+
+  .card
+    .card-header#headingDBS{ role: "tab" }
+      %h5.mb-0
+        %a.collapsed{ "aria-controls": "dbs", "aria-expanded": "false", "data-parent": "#accordion", "data-toggle": "collapse", href: "#dbs" }
+          DBS
+    #dbs.collapse{ "aria-labelledby": "headingDBS",  role: "tabpanel" }
+      .card-block
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.

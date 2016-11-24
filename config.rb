@@ -44,4 +44,6 @@ configure :build do
 end
 
 require "lib/helpers"
+require "lib/verify_helper"
 helpers Helpers
+helpers VerifyHelper
