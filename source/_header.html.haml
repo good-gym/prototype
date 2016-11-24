@@ -1,0 +1,12 @@
+%nav.navbar.navbar-fixed-top.navbar-light
+  %a.navbar-brand{ href: "/" }
+    = image_tag 'goodgym_red.png', alt: "GoodGym logo", width: 100
+  %ul.nav.navbar-nav
+    %li.nav-item.active
+      %a.nav-link{ href: "/about" }
+        About
+        %span.sr-only (current)
+    %li.nav-item
+      %a.nav-link{:href => "#"} Areas
+    %li.nav-item
+      %a.nav-link{:href => "#"} Runs

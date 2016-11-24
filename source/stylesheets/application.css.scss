@@ -1,12 +1,22 @@
-$brand-primary: #FF0000;
+$brand-primary: #ED1C24;
 $twitter-primary: #55ACEE;
 $facebook-primary: #4C66A4;
 $line-height-base: 1.5;
 $font-family-base: "adelle-sans", sans-serif ;
 $font-color-base: #cccccc ;
-$headings-font-family: "lft_etica";
 $font-family-base: "adellesans";
 
-@import "fonts";
+$navbar-light-color:                rgba(0,0,0,1) !default;
+$navbar-light-active-color:         #ED1C24 !default;
 
+h1,h2,h3,h4,h5,h6 {
+  &.strong {
+    font-family: "lft_etica";
+    text-transform: uppercase;
+  }
+}
+
+@import "fonts";
 @import "bootstrap";
+
+@import "components/header";

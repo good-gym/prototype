@@ -1,0 +1,22 @@
+body {
+  padding-top: 8rem;
+}
+nav.navbar {
+  font-size: 0.9rem;
+  font-weight: bolder;
+
+  .navbar-nav {
+    padding-top: 1rem;
+  }
+
+  .nav-item {
+    // text-transform: uppercase;
+
+    a {
+      color: black;
+    }
+    a.active {
+      color: red;
+    }
+  }
+}
