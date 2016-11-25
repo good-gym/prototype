@@ -1,0 +1,27 @@
+.my-profile {
+  padding-top: 1rem;
+  img {
+    max-width: 100px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+  }
+}
+
+.badges {
+  ul {
+    padding-left: 0px;
+    list-style: none;
+    text-align: center
+  }
+  .badge {
+    width: 30%;
+    background-color: $brand-primary;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0.1rem;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

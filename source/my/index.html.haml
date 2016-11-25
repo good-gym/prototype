@@ -1,0 +1,54 @@
+---
+runner:
+  name: Patrick Sinclair
+  bio: Doing good since Feb 18 2013
+  image: "https://gg-api.s3.amazonaws.com/uploads/runner/avatar/14/large_profile_pic_patrick.jpg"
+  runs: 439
+  good_deeds: 156
+  cheers: 453
+  badges:
+    - ["strava-connected", "Strava Connected"]
+    - ["join-race-team", "Join Race Team"]
+    - ["twenty-five-cheers-received", "Twenty Five Cheers Received"]
+    - ["ten-cheers-received", "Ten Cheers Received"]
+    - ["log-a-ten-miles", "Log A Ten Miles"]
+    - ["log-a-half-marathon", "Log A Half Marathon"]
+    - ["log-a-ten-k", "Log A Ten K"]
+    - ["log-a-five-k", "Log A Five K"]
+    - ["three-group-run-areas", "Three Group Run Areas"]
+    - ["one-hundred-good-deeds", "One Hundred Good Deeds"]
+    - ["fifty-good-deeds", "Fifty Good Deeds"]
+    - ["twitter-connected", "Twitter Connected"]
+    - ["first-race", "First Race"]
+    - ["first-group-run-away", "First Group Run Away"]
+    - ["first-weekend-mission", "First Weekend Mission"]
+    - ["twenty-five-good-deeds", "Twenty Five Good Deeds"]
+    - ["first-mission", "First Mission"]
+    - ["first-training-run", "First Training Run"]
+    - ["fifteen-good-deeds", "Fifteen Good Deeds"]
+    - ["ten-good-deeds", "Ten Good Deeds"]
+    - ["five-good-deeds", "Five Good Deeds"]
+    - ["first-good-deed", "First Good Deed"]
+---
+
+.row
+  .col-md-3
+    .card.text-sm-center.my-profile
+      .card-block
+        = image_tag runner.image, class: "rounded-circle"
+        %h5= runner.name
+        %p= runner.bio
+
+        %ul
+          %li #{runner.runs} runs
+          %li #{runner.good_deeds} good deeds
+          %li #{runner.cheers} cheers
+
+    .card.badges
+      .card-block
+        %h5 Achievements
+        %ul
+          - runner.badges.each do |slug, name|
+            %li.badge{ class: slug }
+              = image_tag("http://goodgym-production.s3.amazonaws.com/badges/#{slug}.png", title: name)
+              %span.sr-only= name
