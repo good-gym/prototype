@@ -1,28 +1,22 @@
 .row
-  .col-md-6.col-md-offset-3.centered.splash-box
-    %h1.logo Goodgym
-    %h2 Get Running
-
-    %p{style: "margin-bottom: 2em; text-align: left;"} Get started with GoodGym and we’ll keep you up to date with runs in your area.  If we’re not operating in your area yet, we can connect you with others like you.  Once you’ve come on a run you can become a full member.  We won’t share your info with any third parties.
-
-    .row
-      .col-md-8.col-md-offset-2.centered
+  .col-md-6.offset-md-3.text-md-center.splash-box
+    %h1
+      = image_tag "50_gg_logo.png"
+      %span.sr-only Goodgym
+    .row.pt-2.pb-2
+      .col-md-12.text-md-center
         %form
           .form-group.string
             %div
-              %input{ placeholder: "Name" }
+              %input.form-control{ placeholder: "Name" }
           .form-group.string
-            %input{ placeholder: "Email" }
+            %input.form-control{ placeholder: "Email" }
           .form-group.string
-            %input{ password: "Password" }
+            %input.form-control{ placeholder: "Password" }
           .form-group.string
-            %input{ password: "Confirm password" }
-          = link_to "Get started", "/my/verify"
+            %input.form-control{ placeholder: "Confirm password" }
+          = link_to "Sign up", "/my/verify", class: "btn btn-primary"
 
-        %p.or-divider or
+        %p.small= link_to "Already running? Login", login_path
 
-        %p= link_to "<span class='socicon socicon-facebook' style='text-transform: lowercase;'></span> Get started with Facebook".html_safe, "/auth/facebook", :class => "btn btn--facebook btn-block", :id => "facebook-home"
-
-        %hr
-
-        %p Already got an account? #{ link_to "Sign in here", login_path }
+        = link_to "Join with Facebook", "/my/verify", class: "btn btn-info"
