@@ -1,0 +1,29 @@
+%figure.banner-header
+  = image_tag("results-banner-run-to-an-older-person@3x.png", class: "img-fluid")
+  %figcaption
+    %h2.strong.display-4
+      Run to an older person
+
+%p.lead Run regularly to see an older isolated person
+
+.card
+  %h3
+    Flo
+    %small (real name disguised)
+  %p 80 something Flo recently returned from Hospital and is on her own a lot.
+  %p Flo would like:
+  %ul
+    %li Female runner
+  %p 5km from #{current_page.metadata[:page][:postcode]}
+  =link_to "Search", "/coaches/", class: "btn btn-primary"
+
+%p
+  We register new coaches every week, our coaches are isolated older people,
+  because of this you will be asked to provide references, undergo a police
+  check and online training
+
+= link_to "/signin", class: "btn btn-primary strong" do
+  Get verified <br>
+  Run to an older person
+
+= link_to("Show more coaches", "/search/coaches")

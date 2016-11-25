@@ -8,6 +8,14 @@
     We have completed
     %strong 24,000
     runs and good deeds to date.
+  %div
+    %form.form-inline
+      .form-group
+        %h4 Find your nearest run
+        %label.sr-only{ placeholder: "Postcode" }
+        .input-group
+          %input.form-control{ placeholder: "Postcode" }
+        =link_to "Search", "/search", class: "btn btn-primary"
 .text-sm-center
   %h2 3 reasons to run
 .row.text-sm-center
@@ -16,7 +24,7 @@
     %p
       Fancy something new?
       Meet new people and make your area a better place.
-    %a{:href => ""} More info
+    = link_to "More info", "/group-runs"
   .col-lg-4.missions
     %h3.strong Run missions
     %p

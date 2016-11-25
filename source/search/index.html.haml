@@ -1,0 +1,30 @@
+---
+postcode: "SE50HU"
+---
+
+%p Show
+%ul.search-filter.nav.nav-inline
+  %li.nav-item
+    =link_to("All", "/search", class: "nav-link active")
+  %li.nav-item
+    =link_to("Coach Runs", "/search/coaches", class: "nav-link")
+  %li.nav-item
+    =link_to("Missions", "/search/missions", class: "nav-link active")
+  %li.nav-item
+    =link_to("Group runs", "/search/group-runs", class: "nav-link active")
+
+%form.form-inline
+  .form-group
+    %p Find your nearest run
+    %label.sr-only{ placeholder: "Postcode" }
+    .input-group
+      %input.form-control{ placeholder: "Postcode" }
+    =link_to "Search", "/search", class: "btn btn-primary"
+
+.row
+  .col-lg-4
+    = partial :coaches
+  .col-lg-4
+    = partial :missions
+  .col-lg-4
+    = partial :group_runs
