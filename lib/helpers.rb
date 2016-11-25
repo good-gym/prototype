@@ -10,4 +10,8 @@ module Helpers
   def charity_path
     "/charity"
   end
+
+  def login_path
+    "/login"
+  end
 end

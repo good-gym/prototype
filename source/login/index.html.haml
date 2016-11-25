@@ -1,0 +1,25 @@
+.row
+  .col-sm-6.offset-sm-3.centered.splash-box
+    %h1.logo Goodgym
+
+    .row
+      .col-md-8.col-md-offset-2.centered
+        %form
+          .form-group.string
+            %div
+              %input{ placeholder: "Name" }
+          .form-group.string
+            %input{ placeholder: "Email" }
+          .form-group.string
+            %input{ password: "Password" }
+          .form-group.string
+            %input{ password: "Confirm password" }
+          = link_to "Get started", "/my/verify"
+
+        %p.or-divider or
+
+        %p= link_to "<span class='socicon socicon-facebook' style='text-transform: lowercase;'></span> Get started with Facebook".html_safe, "/auth/facebook", :class => "btn btn--facebook btn-block", :id => "facebook-home"
+
+        %hr
+
+        %p Already got an account? #{ link_to "Sign in here", login_path }
