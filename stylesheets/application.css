@@ -6306,7 +6306,7 @@ footer {
 .footer-slash {
   width: 100%;
   height: 5rem;
-  background-image: linear-gradient(to bottom right, white, white 50%, #ED1C24 50%, #ED1C24); }
+  background-image: linear-gradient(to bottom right, white, white 49%, #ED1C24 49%, #ED1C24); }
 
 /* line 1, components/_search.scss */
 ul.search-filter {
@@ -6344,28 +6344,40 @@ ul.search-filter li {
       color: white;
       font-size: 1.5rem; }
 
-/* line 1, components/my.scss */
+/* line 3, components/_runs.scss */
+#trainers .carousel-control.right, #trainers .carousel-control.left {
+  background-image: none; }
+/* line 6, components/_runs.scss */
+#trainers .carousel-control .icon-next, #trainers .carousel-control .icon-prev {
+  color: black; }
+/* line 10, components/_runs.scss */
+#trainers img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%; }
+
+/* line 1, components/_my.scss */
 .my-profile {
   padding-top: 1rem; }
-  /* line 3, components/my.scss */
+  /* line 3, components/_my.scss */
   .my-profile img {
     max-width: 100px;
     border-radius: 100%;
     border: 3px solid #fff; }
 
-/* line 11, components/my.scss */
+/* line 11, components/_my.scss */
 .badges ul {
   padding-left: 0px;
   list-style: none;
   text-align: center; }
-/* line 16, components/my.scss */
+/* line 16, components/_my.scss */
 .badges .badge {
   width: 30%;
   background-color: #ED1C24;
   border-radius: 100%;
   display: inline-block;
   margin: 0.1rem; }
-  /* line 22, components/my.scss */
+  /* line 22, components/_my.scss */
   .badges .badge img {
     width: 100%;
     height: auto; }
