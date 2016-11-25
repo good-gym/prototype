@@ -6343,3 +6343,29 @@ ul.search-filter li {
       width: 80%;
       color: white;
       font-size: 1.5rem; }
+
+/* line 1, components/my.scss */
+.my-profile {
+  padding-top: 1rem; }
+  /* line 3, components/my.scss */
+  .my-profile img {
+    max-width: 100px;
+    border-radius: 100%;
+    border: 3px solid #fff; }
+
+/* line 11, components/my.scss */
+.badges ul {
+  padding-left: 0px;
+  list-style: none;
+  text-align: center; }
+/* line 16, components/my.scss */
+.badges .badge {
+  width: 30%;
+  background-color: #ED1C24;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0.1rem; }
+  /* line 22, components/my.scss */
+  .badges .badge img {
+    width: 100%;
+    height: auto; }
