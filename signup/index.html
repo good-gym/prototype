@@ -39,33 +39,32 @@
 
     <div class="container">
       <div class='row'>
-  <div class='col-md-6 col-md-offset-3 centered splash-box'>
-    <h1 class='logo'>Goodgym</h1>
-    <h2>Get Running</h2>
-    <p style='margin-bottom: 2em; text-align: left;'>Get started with GoodGym and we’ll keep you up to date with runs in your area.  If we’re not operating in your area yet, we can connect you with others like you.  Once you’ve come on a run you can become a full member.  We won’t share your info with any third parties.</p>
-    <div class='row'>
-      <div class='col-md-8 col-md-offset-2 centered'>
+  <div class='col-md-6 offset-md-3 text-md-center splash-box'>
+    <h1>
+      <img src="/images/50_gg_logo.png" alt="50 gg logo" />
+      <span class='sr-only'>Goodgym</span>
+    </h1>
+    <div class='row pt-2 pb-2'>
+      <div class='col-md-12 text-md-center'>
         <form>
           <div class='form-group string'>
             <div>
-              <input placeholder='Name'>
+              <input class='form-control' placeholder='Name'>
             </div>
           </div>
           <div class='form-group string'>
-            <input placeholder='Email'>
+            <input class='form-control' placeholder='Email'>
           </div>
           <div class='form-group string'>
-            <input password='Password'>
+            <input class='form-control' placeholder='Password'>
           </div>
           <div class='form-group string'>
-            <input password='Confirm password'>
+            <input class='form-control' placeholder='Confirm password'>
           </div>
-          <a href="/my/verify">Get started</a>
+          <a href="/my/verify" class="btn btn-primary">Sign up</a>
         </form>
-        <p class='or-divider'>or</p>
-        <p><a href="/auth/facebook" class="btn btn--facebook btn-block" id="facebook-home"><span class='socicon socicon-facebook' style='text-transform: lowercase;'></span> Get started with Facebook</a></p>
-        <hr>
-        <p>Already got an account? <a href="/login">Sign in here</a></p>
+        <p class='small'><a href="/login">Already running? Login</a></p>
+        <a href="/my/verify" class="btn btn-info">Join with Facebook</a>
       </div>
     </div>
   </div>
