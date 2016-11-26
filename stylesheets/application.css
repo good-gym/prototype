@@ -6344,55 +6344,75 @@ ul.search-filter li {
       color: white;
       font-size: 1.5rem; }
 
-/* line 1, components/_runs.scss */
-.run-splash {
+/* line 2, components/_runs.scss */
+.run-splash .run-splash-image {
   position: relative;
-  margin-bottom: 2rem; }
-  /* line 4, components/_runs.scss */
-  .run-splash img {
-    opacity: 0.6; }
-  /* line 12, components/_runs.scss */
-  .run-splash .slash {
-    width: 100%;
-    height: 5rem;
-    background-image: linear-gradient(to bottom left, transparent, transparent 49%, #ED1C24 49%, #ED1C24); }
-  /* line 17, components/_runs.scss */
-  .run-splash .outer-container {
-    background-color: #ED1C24; }
-  /* line 20, components/_runs.scss */
-  .run-splash .caption {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    color: white;
-    line-height: 2.5rem; }
-    /* line 27, components/_runs.scss */
-    .run-splash .caption h1 {
-      font-size: 3.5rem;
-      text-shadow: 1px 1px 2px black; }
+  z-index: -1;
+  background: black; }
+/* line 7, components/_runs.scss */
+.run-splash img {
+  opacity: 0.6;
+  width: 100%; }
+/* line 11, components/_runs.scss */
+.run-splash .slash {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5rem;
+  background-image: linear-gradient(to bottom left, transparent, transparent 49%, #ED1C24 49%, #ED1C24); }
+  @media (min-width: 768px) {
+    /* line 11, components/_runs.scss */
+    .run-splash .slash {
+      bottom: 5rem; } }
+  @media (min-width: 992px) {
+    /* line 11, components/_runs.scss */
+    .run-splash .slash {
+      bottom: 10rem; } }
+/* line 26, components/_runs.scss */
+.run-splash .run-splash-caption {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  background-color: #ED1C24;
+  color: white;
+  line-height: 2.5rem; }
+  @media (min-width: 768px) {
+    /* line 26, components/_runs.scss */
+    .run-splash .run-splash-caption {
+      margin-top: -5rem; } }
+  @media (min-width: 992px) {
+    /* line 26, components/_runs.scss */
+    .run-splash .run-splash-caption {
+      margin-top: -10rem; } }
+  /* line 37, components/_runs.scss */
+  .run-splash .run-splash-caption h1 {
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 2px black; }
+  /* line 42, components/_runs.scss */
+  .run-splash .run-splash-caption p {
+    font-size: 1.5rem; }
 
-/* line 38, components/_runs.scss */
+/* line 49, components/_runs.scss */
 .run-infographic h2 {
   font-size: 3rem; }
-/* line 41, components/_runs.scss */
+/* line 52, components/_runs.scss */
 .run-infographic h3 {
   font-size: 1rem;
   text-transform: uppercase; }
-/* line 45, components/_runs.scss */
+/* line 56, components/_runs.scss */
 .run-infographic img {
   width: 60px;
   margin-top: 2rem; }
-/* line 49, components/_runs.scss */
+/* line 60, components/_runs.scss */
 .run-infographic .media {
   padding-top: 1rem;
   border-top: 5px solid #ED1C24; }
-  /* line 52, components/_runs.scss */
+  /* line 63, components/_runs.scss */
   .run-infographic .media:first-child {
     border: none; }
 @media (min-width: 576px) {
-  /* line 57, components/_runs.scss */
+  /* line 68, components/_runs.scss */
   .run-infographic .media-container {
     margin-right: -15px;
     margin-left: -15px; }
@@ -6402,52 +6422,52 @@ ul.search-filter li {
       display: table;
       clear: both; } }
   @media (min-width: 576px) and (min-width: 576px) {
-    /* line 57, components/_runs.scss */
+    /* line 68, components/_runs.scss */
     .run-infographic .media-container {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 576px) and (min-width: 768px) {
-    /* line 57, components/_runs.scss */
+    /* line 68, components/_runs.scss */
     .run-infographic .media-container {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 576px) and (min-width: 992px) {
-    /* line 57, components/_runs.scss */
+    /* line 68, components/_runs.scss */
     .run-infographic .media-container {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 576px) and (min-width: 1200px) {
-    /* line 57, components/_runs.scss */
+    /* line 68, components/_runs.scss */
     .run-infographic .media-container {
       margin-right: -15px;
       margin-left: -15px; } }
 @media (min-width: 576px) {
-  /* line 60, components/_runs.scss */
+  /* line 71, components/_runs.scss */
   .run-infographic .media {
     float: left;
     width: 25%;
     border: none; }
-  /* line 64, components/_runs.scss */
+  /* line 75, components/_runs.scss */
   .run-infographic .media-left {
     padding-right: 10px;
     width: 100%;
     display: block;
     border-bottom: 10px solid #ED1C24;
     margin-bottom: 1rem; }
-    /* line 71, components/_runs.scss */
+    /* line 82, components/_runs.scss */
     .run-infographic .media-left img {
       margin: 1rem 2rem; }
-  /* line 75, components/_runs.scss */
+  /* line 86, components/_runs.scss */
   .run-infographic .media-body {
     padding: 0rem 1rem; } }
 
-/* line 83, components/_runs.scss */
+/* line 94, components/_runs.scss */
 #trainers .carousel-control.right, #trainers .carousel-control.left {
   background-image: none; }
-/* line 86, components/_runs.scss */
+/* line 97, components/_runs.scss */
 #trainers .carousel-control .icon-next, #trainers .carousel-control .icon-prev {
   color: black; }
-/* line 90, components/_runs.scss */
+/* line 101, components/_runs.scss */
 #trainers img {
   width: 100px;
   height: 100px;
