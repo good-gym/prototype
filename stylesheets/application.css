@@ -6344,26 +6344,55 @@ ul.search-filter li {
       color: white;
       font-size: 1.5rem; }
 
-/* line 2, components/_runs.scss */
+/* line 1, components/_runs.scss */
+.run-splash {
+  position: relative;
+  margin-bottom: 2rem; }
+  /* line 4, components/_runs.scss */
+  .run-splash img {
+    opacity: 0.6; }
+  /* line 12, components/_runs.scss */
+  .run-splash .slash {
+    width: 100%;
+    height: 5rem;
+    background-image: linear-gradient(to bottom left, transparent, transparent 49%, #ED1C24 49%, #ED1C24); }
+  /* line 17, components/_runs.scss */
+  .run-splash .outer-container {
+    background-color: #ED1C24; }
+  /* line 20, components/_runs.scss */
+  .run-splash .caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: white;
+    line-height: 2.5rem; }
+    /* line 27, components/_runs.scss */
+    .run-splash .caption h1 {
+      font-size: 3.5rem;
+      text-shadow: 1px 1px 2px black; }
+
+/* line 38, components/_runs.scss */
 .run-infographic h2 {
   font-size: 3rem; }
-/* line 5, components/_runs.scss */
+/* line 41, components/_runs.scss */
 .run-infographic h3 {
   font-size: 1rem;
   text-transform: uppercase; }
-/* line 9, components/_runs.scss */
+/* line 45, components/_runs.scss */
 .run-infographic img {
   width: 60px;
   margin-top: 2rem; }
-/* line 13, components/_runs.scss */
+/* line 49, components/_runs.scss */
 .run-infographic .media {
   padding-top: 1rem;
   border-top: 5px solid #ED1C24; }
-  /* line 16, components/_runs.scss */
+  /* line 52, components/_runs.scss */
   .run-infographic .media:first-child {
     border: none; }
 @media (min-width: 576px) {
-  /* line 21, components/_runs.scss */
+  /* line 57, components/_runs.scss */
   .run-infographic .media-container {
     margin-right: -15px;
     margin-left: -15px; }
@@ -6373,71 +6402,52 @@ ul.search-filter li {
       display: table;
       clear: both; } }
   @media (min-width: 576px) and (min-width: 576px) {
-    /* line 21, components/_runs.scss */
+    /* line 57, components/_runs.scss */
     .run-infographic .media-container {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 576px) and (min-width: 768px) {
-    /* line 21, components/_runs.scss */
+    /* line 57, components/_runs.scss */
     .run-infographic .media-container {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 576px) and (min-width: 992px) {
-    /* line 21, components/_runs.scss */
+    /* line 57, components/_runs.scss */
     .run-infographic .media-container {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 576px) and (min-width: 1200px) {
-    /* line 21, components/_runs.scss */
+    /* line 57, components/_runs.scss */
     .run-infographic .media-container {
       margin-right: -15px;
       margin-left: -15px; } }
 @media (min-width: 576px) {
-  /* line 24, components/_runs.scss */
+  /* line 60, components/_runs.scss */
   .run-infographic .media {
     float: left;
     width: 25%;
     border: none; }
-  /* line 28, components/_runs.scss */
+  /* line 64, components/_runs.scss */
   .run-infographic .media-left {
     padding-right: 10px;
     width: 100%;
     display: block;
     border-bottom: 10px solid #ED1C24;
     margin-bottom: 1rem; }
-    /* line 35, components/_runs.scss */
+    /* line 71, components/_runs.scss */
     .run-infographic .media-left img {
       margin: 1rem 2rem; }
-  /* line 39, components/_runs.scss */
+  /* line 75, components/_runs.scss */
   .run-infographic .media-body {
     padding: 0rem 1rem; } }
 
-/* line 45, components/_runs.scss */
-.run-infographic-large h2 {
-  font-size: 3rem; }
-/* line 48, components/_runs.scss */
-.run-infographic-large h3 {
-  font-size: 1rem;
-  text-transform: uppercase; }
-/* line 52, components/_runs.scss */
-.run-infographic-large img {
-  width: 40%;
-  margin-top: 3rem;
-  margin-left: 2rem; }
-/* line 57, components/_runs.scss */
-.run-infographic-large hr {
-  border: 5px solid #ED1C24; }
-/* line 60, components/_runs.scss */
-.run-infographic-large .step {
-  padding-right: 5rem; }
-
-/* line 68, components/_runs.scss */
+/* line 83, components/_runs.scss */
 #trainers .carousel-control.right, #trainers .carousel-control.left {
   background-image: none; }
-/* line 71, components/_runs.scss */
+/* line 86, components/_runs.scss */
 #trainers .carousel-control .icon-next, #trainers .carousel-control .icon-prev {
   color: black; }
-/* line 75, components/_runs.scss */
+/* line 90, components/_runs.scss */
 #trainers img {
   width: 100px;
   height: 100px;
