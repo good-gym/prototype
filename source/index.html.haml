@@ -1,24 +1,25 @@
-.home-page-splash
-  .home-page-splash-image
-    = image_tag("home-page-splash.jpg", class: "img-fluid")
-  .home-page-splash-text
-    %h1.strong Do Good, Get Fit
-    %p
-      We are a running club that does good.
-      %br/
-      To reach out to the elderly, meet like minded people and become in community activities.
-    %p
-      We have completed
-      %strong 24,000
-      runs and good deeds to date.
-    %div
-      %form.form-inline
-        .form-group
-          %h4 Find your nearest run
-          %label.sr-only{ placeholder: "Postcode" }
-          .input-group
-            %input.form-control{ placeholder: "Postcode" }
-          =link_to "Search", "/search", class: "btn btn-primary"
+- content_for :splash do
+  .home-page-splash
+    .home-page-splash-image
+      = image_tag("home-page-splash.jpg", class: "img-fluid")
+    .home-page-splash-text
+      %h1.strong Do Good, Get Fit
+      %p
+        We are a running club that does good.
+        %br/
+        To reach out to the elderly, meet like minded people and become in community activities.
+      %p
+        We have completed
+        %strong 24,000
+        runs and good deeds to date.
+      %div
+        %form.form-inline
+          .form-group
+            %h4 Find your nearest run
+            %label.sr-only{ placeholder: "Postcode" }
+            .input-group
+              %input.form-control{ placeholder: "Postcode" }
+            =link_to "Search", "/search", class: "btn btn-primary"
 
 .text-sm-center
   %h2 3 reasons to run
