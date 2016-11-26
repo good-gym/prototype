@@ -6344,13 +6344,100 @@ ul.search-filter li {
       color: white;
       font-size: 1.5rem; }
 
-/* line 3, components/_runs.scss */
+/* line 2, components/_runs.scss */
+.run-infographic h2 {
+  font-size: 3rem; }
+/* line 5, components/_runs.scss */
+.run-infographic h3 {
+  font-size: 1rem;
+  text-transform: uppercase; }
+/* line 9, components/_runs.scss */
+.run-infographic img {
+  width: 60px;
+  margin-top: 2rem; }
+/* line 13, components/_runs.scss */
+.run-infographic .media {
+  padding-top: 1rem;
+  border-top: 5px solid #ED1C24; }
+  /* line 16, components/_runs.scss */
+  .run-infographic .media:first-child {
+    border: none; }
+@media (min-width: 576px) {
+  /* line 21, components/_runs.scss */
+  .run-infographic .media-container {
+    margin-right: -15px;
+    margin-left: -15px; }
+    /* line 2, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+    .run-infographic .media-container::after {
+      content: "";
+      display: table;
+      clear: both; } }
+  @media (min-width: 576px) and (min-width: 576px) {
+    /* line 21, components/_runs.scss */
+    .run-infographic .media-container {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 576px) and (min-width: 768px) {
+    /* line 21, components/_runs.scss */
+    .run-infographic .media-container {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 576px) and (min-width: 992px) {
+    /* line 21, components/_runs.scss */
+    .run-infographic .media-container {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 576px) and (min-width: 1200px) {
+    /* line 21, components/_runs.scss */
+    .run-infographic .media-container {
+      margin-right: -15px;
+      margin-left: -15px; } }
+@media (min-width: 576px) {
+  /* line 24, components/_runs.scss */
+  .run-infographic .media {
+    float: left;
+    width: 25%;
+    border: none; }
+  /* line 28, components/_runs.scss */
+  .run-infographic .media-left {
+    padding-right: 10px;
+    width: 100%;
+    display: block;
+    border-bottom: 10px solid #ED1C24;
+    margin-bottom: 1rem; }
+    /* line 35, components/_runs.scss */
+    .run-infographic .media-left img {
+      margin: 1rem 2rem; }
+  /* line 39, components/_runs.scss */
+  .run-infographic .media-body {
+    padding: 0rem 1rem; } }
+
+/* line 45, components/_runs.scss */
+.run-infographic-large h2 {
+  font-size: 3rem; }
+/* line 48, components/_runs.scss */
+.run-infographic-large h3 {
+  font-size: 1rem;
+  text-transform: uppercase; }
+/* line 52, components/_runs.scss */
+.run-infographic-large img {
+  width: 40%;
+  margin-top: 3rem;
+  margin-left: 2rem; }
+/* line 57, components/_runs.scss */
+.run-infographic-large hr {
+  border: 5px solid #ED1C24; }
+/* line 60, components/_runs.scss */
+.run-infographic-large .step {
+  padding-right: 5rem; }
+
+/* line 68, components/_runs.scss */
 #trainers .carousel-control.right, #trainers .carousel-control.left {
   background-image: none; }
-/* line 6, components/_runs.scss */
+/* line 71, components/_runs.scss */
 #trainers .carousel-control .icon-next, #trainers .carousel-control .icon-prev {
   color: black; }
-/* line 10, components/_runs.scss */
+/* line 75, components/_runs.scss */
 #trainers img {
   width: 100px;
   height: 100px;
