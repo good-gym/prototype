@@ -28,29 +28,35 @@
   h1 {
     color: white;
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 50%;
     width: 80%;
     transform: translate(-50%, -50%);
 
-    @include media-breakpoint-up(md) {
-      top: 30%;
-      font-size: 4rem;
+    @include media-breakpoint-up(sm) {
+      top: 40%;
+      font-size: 3rem;
       br { display: none; }
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 4rem;
     }
   }
   .home-page-splash-text {
     width: 80%;
     margin: auto;
     text-align: center;
-    @include media-breakpoint-up(md) {
-      font-size: 1.5rem;
+    @include media-breakpoint-up(sm) {
+      font-size: 1.2rem;
       color: white;
       bottom: 5rem;
       position: absolute;
-      top: 53%;
+      top: 60%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+    @include media-breakpoint-up(md) {
+      font-size: 1.5rem;
     }
   }
 }

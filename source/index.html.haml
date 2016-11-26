@@ -12,15 +12,16 @@
         We have completed
         %strong 24,000
         runs and good deeds to date.
-      %div
-        %form.form-inline
-          .form-group
-            %h4 Find your nearest run
-            %label.sr-only{ placeholder: "Postcode" }
-            .input-group
-              %input.form-control{ placeholder: "Postcode" }
-              %span.input-group-btn
-                =link_to "Search", "/search", class: "btn btn-primary"
+
+.text-sm-center
+  %form.form-inline
+    .form-group
+      %h4 Find your nearest run
+      %label.sr-only{ placeholder: "Postcode" }
+      .input-group
+        %input.form-control{ placeholder: "Postcode" }
+        %span.input-group-btn
+          =link_to "Search", "/search", class: "btn btn-primary"
 
 .text-sm-center
   %h2 3 reasons to run
