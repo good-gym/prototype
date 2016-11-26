@@ -6338,33 +6338,41 @@ footer {
   .home-page-splash h1 {
     color: white;
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 50%;
     width: 80%;
     transform: translate(-50%, -50%); }
-    @media (min-width: 768px) {
+    @media (min-width: 576px) {
       /* line 28, components/_home.scss */
       .home-page-splash h1 {
-        top: 30%;
-        font-size: 4rem; }
+        top: 40%;
+        font-size: 3rem; }
         /* line 39, components/_home.scss */
         .home-page-splash h1 br {
           display: none; } }
-  /* line 42, components/_home.scss */
+    @media (min-width: 768px) {
+      /* line 28, components/_home.scss */
+      .home-page-splash h1 {
+        font-size: 4rem; } }
+  /* line 45, components/_home.scss */
   .home-page-splash .home-page-splash-text {
     width: 80%;
     margin: auto;
     text-align: center; }
-    @media (min-width: 768px) {
-      /* line 42, components/_home.scss */
+    @media (min-width: 576px) {
+      /* line 45, components/_home.scss */
       .home-page-splash .home-page-splash-text {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: white;
         bottom: 5rem;
         position: absolute;
-        top: 53%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%); } }
+    @media (min-width: 768px) {
+      /* line 45, components/_home.scss */
+      .home-page-splash .home-page-splash-text {
+        font-size: 1.5rem; } }
 
 /* line 1, components/_search.scss */
 ul.search-filter {
