@@ -11,9 +11,6 @@
     img {
       width: 100%;
       opacity: 0.5;
-
-      margin-top: -75px;
-
       display: block;
       max-width: 100%;
       /* just in case, to force correct aspect ratio */
@@ -21,24 +18,39 @@
       width: auto\9; /* ie8+9 */
       /* lt ie8 */
       -ms-interpolation-mode: bicubic;
+
+      @include media-breakpoint-up(md) {
+        margin-top: -75px;
+      }
     }
   }
 
-  .home-page-splash-text {
-    h1 {
-      font-size: 4rem;
-      margin-bottom: 2.5rem;
-    }
-    p {
-      font-size: 1.5rem;
-    }
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%, -50%);
-    width: 80%;
-
+  h1 {
     color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+
+    @include media-breakpoint-up(md) {
+      top: 30%;
+      font-size: 4rem;
+      br { display: none; }
+    }
+  }
+  .home-page-splash-text {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    @include media-breakpoint-up(md) {
+      font-size: 1.5rem;
+      color: white;
+      bottom: 5rem;
+      position: absolute;
+      top: 53%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   }
 }

@@ -2,8 +2,8 @@
   .home-page-splash
     .home-page-splash-image
       = image_tag("home-page-splash.jpg", class: "img-fluid")
+    %h1.strong Do Good, <br> Get Fit
     .home-page-splash-text
-      %h1.strong Do Good, Get Fit
       %p
         We are a running club that does good.
         %br/
@@ -19,7 +19,8 @@
             %label.sr-only{ placeholder: "Postcode" }
             .input-group
               %input.form-control{ placeholder: "Postcode" }
-            =link_to "Search", "/search", class: "btn btn-primary"
+              %span.input-group-btn
+                =link_to "Search", "/search", class: "btn btn-primary"
 
 .text-sm-center
   %h2 3 reasons to run
