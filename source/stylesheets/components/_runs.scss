@@ -1,3 +1,68 @@
+.run-infographic {
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  img {
+    width: 60px;
+    margin-top: 2rem;
+  }
+  .media {
+    padding-top: 1rem;
+    border-top: 5px solid $brand-primary;
+    &:first-child {
+      border: none;
+    }
+  }
+  @include media-breakpoint-up(sm) {
+    .media-container {
+      @include make-row();
+    }
+    .media {
+      @include make-col(3);
+      border: none;
+    }
+    .media-left {
+      padding-right: 10px;
+      width: 100%;
+      display: block;
+      border-bottom: 10px solid $brand-primary;
+      margin-bottom: 1rem;
+
+      img {
+        margin: 1rem 2rem;
+      }
+    }
+    .media-body {
+      padding: 0rem 1rem;
+    }
+  }
+}
+.run-infographic-large {
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  img {
+    width: 40%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  hr {
+    border: 5px solid $brand-primary;
+  }
+  .step {
+    padding-right: 5rem;
+  }
+}
+
+
 #trainers {
   .carousel-control {
     &.right, &.left {

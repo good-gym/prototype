@@ -108,24 +108,76 @@ trainers:
   leave anyone behind.
 
 
-%h2.strong.text-sm-center These are the steps to reaching your running goal
-.row
-  .col-xs-3
-    %h3 Step one
-    %h4.strong Run
-    %p We organise weekly group runs which are like flash mobs for good
-  .col-xs-3
-    %h3 Step two
-    %h4.strong Help
-    %p We run to community organisations and help them with tasks such as gardening or renovating.
-  .col-xs-3
-    %h3 Step three
-    %h4.strong Run
-    %p We like to have fun and run home. <strike>Sometimes treating ourselves to a lemonade in the local pub</strike>.
-  .col-xs-3
-    %h3 Step four
-    %h4.strong Stretch
-    %p Looking after you is also important to us. We have a certified trainer who leads the runs and makes sure you reach your goals
+
+
+
+.run-infographic
+  %h2 These are the steps to reaching your running goal
+
+  .media-container
+    .media
+      .media-left
+        = image_tag("running.svg", class: "media-object")
+      .media-body
+        %h3 Step one
+        %h4.strong Run
+        %p We organise weekly group runs which are like flash mobs for good
+    .media
+      .media-left
+        = image_tag("running.svg", class: "media-object")
+      .media-body
+        %h3 Step two
+        %h4.strong Help
+        %p We run to community organisations and help them with tasks such as gardening or renovating.
+    .media
+      .media-left
+        = image_tag("running.svg", class: "media-object")
+      .media-body
+        %h3 Step three
+        %h4.strong Run
+        %p We like to have fun and run home. <strike>Sometimes treating ourselves to a lemonade in the local pub</strike>.
+    .media
+      .media-left
+        = image_tag("running.svg", class: "media-object")
+      .media-body
+        %h3 Step four
+        %h4.strong Stretch
+        %p Looking after you is also important to us. We have a certified trainer who leads the runs and makes sure you reach your goals
+
+
+
+
+
+.run-infographic-large
+  %h2 These are the steps to reaching your running goal
+  .row
+    .step.col-md-3
+      = image_tag("running.svg")
+    .step.col-md-3
+      = image_tag("running.svg")
+    .step.col-md-3
+      = image_tag("running.svg")
+    .step.col-md-3
+      = image_tag("running.svg")
+  .row
+    %hr
+  .row
+    .step.col-md-3
+      %h3 Step one
+      %h4.strong Run
+      %p We organise weekly group runs which are like flash mobs for good
+    .step.col-md-3
+      %h3 Step two
+      %h4.strong Help
+      %p We run to community organisations and help them with tasks such as gardening or renovating.
+    .step.col-md-3
+      %h3 Step three
+      %h4.strong Run
+      %p We like to have fun and run home. <strike>Sometimes treating ourselves to a lemonade in the local pub</strike>.
+    .step.col-md-3
+      %h3 Step four
+      %h4.strong Stretch
+      %p Looking after you is also important to us. We have a certified trainer who leads the runs and makes sure you reach your goals
 
 .text-xs-center
   %h2.strong Our trainers
@@ -143,7 +195,7 @@ trainers:
             - group.each_with_index do |trainer, j|
               .col-md-3{ class: j == 0 ? "offset-md-1" : nil }
                 = image_tag "https://gg-api.s3.amazonaws.com"+trainer.photo, alt: "A photo of #{trainer.name}"
-                %h4= trainer.name
+                %h3= trainer.name
                 %p= trainer.bio
 
     %a.left.carousel-control{"data-slide" => "prev", :href => "#carousel-example-generic", :role => "button"}
