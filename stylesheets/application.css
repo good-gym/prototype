@@ -6308,6 +6308,64 @@ footer {
   height: 5rem;
   background-image: linear-gradient(to bottom right, white, white 49%, #ED1C24 49%, #ED1C24); }
 
+/* line 1, components/_home.scss */
+.home-page-splash {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem; }
+  /* line 6, components/_home.scss */
+  .home-page-splash .home-page-splash-image {
+    background: black;
+    max-height: 500px;
+    overflow: hidden; }
+    /* line 11, components/_home.scss */
+    .home-page-splash .home-page-splash-image img {
+      width: 100%;
+      opacity: 0.5;
+      display: block;
+      max-width: 100%;
+      /* just in case, to force correct aspect ratio */
+      height: auto !important;
+      width: auto\9;
+      /* ie8+9 */
+      /* lt ie8 */
+      -ms-interpolation-mode: bicubic; }
+      @media (min-width: 768px) {
+        /* line 11, components/_home.scss */
+        .home-page-splash .home-page-splash-image img {
+          margin-top: -75px; } }
+  /* line 28, components/_home.scss */
+  .home-page-splash h1 {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%); }
+    @media (min-width: 768px) {
+      /* line 28, components/_home.scss */
+      .home-page-splash h1 {
+        top: 30%;
+        font-size: 4rem; }
+        /* line 39, components/_home.scss */
+        .home-page-splash h1 br {
+          display: none; } }
+  /* line 42, components/_home.scss */
+  .home-page-splash .home-page-splash-text {
+    width: 80%;
+    margin: auto;
+    text-align: center; }
+    @media (min-width: 768px) {
+      /* line 42, components/_home.scss */
+      .home-page-splash .home-page-splash-text {
+        font-size: 1.5rem;
+        color: white;
+        bottom: 5rem;
+        position: absolute;
+        top: 53%;
+        left: 50%;
+        transform: translate(-50%, -50%); } }
+
 /* line 1, components/_search.scss */
 ul.search-filter {
   white-space: nowrap;
