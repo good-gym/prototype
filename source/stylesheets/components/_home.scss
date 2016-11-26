@@ -60,3 +60,65 @@
     }
   }
 }
+
+.reasons {
+  @include make-row();
+  text-align: center;
+  p { font-weight: bolder; }
+
+  color: white;
+  .reason {
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    h3 {
+      margin-top: 1rem;
+      height: 6rem;
+    }
+    color: white;
+    &:hover {
+      color: white;
+    }
+    a {
+      padding: 3rem;
+      display: block;
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+    p {
+      height: 8rem;
+    }
+  }
+  .group-runs {
+    background:
+      linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
+      image_url("group-run.jpg");
+    &:hover {
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        image_url("group-run.jpg");
+    }
+  }
+  .missions {
+    background:
+      linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
+      image_url("group-run.jpg");
+    &:hover {
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        image_url("group-run.jpg");
+    }
+  }
+  .coaches {
+    background:
+      linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
+      image_url("group-run.jpg");
+    &:hover {
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        image_url("group-run.jpg");
+    }
+  }
+}
