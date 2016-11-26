@@ -6374,6 +6374,83 @@ footer {
       .home-page-splash .home-page-splash-text {
         font-size: 1.5rem; } }
 
+/* line 64, components/_home.scss */
+.reasons {
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: center;
+  color: white; }
+  /* line 2, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+  .reasons::after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media (min-width: 576px) {
+    /* line 64, components/_home.scss */
+    .reasons {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 768px) {
+    /* line 64, components/_home.scss */
+    .reasons {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 992px) {
+    /* line 64, components/_home.scss */
+    .reasons {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  @media (min-width: 1200px) {
+    /* line 64, components/_home.scss */
+    .reasons {
+      margin-right: -15px;
+      margin-left: -15px; } }
+  /* line 67, components/_home.scss */
+  .reasons p {
+    font-weight: bolder; }
+  /* line 70, components/_home.scss */
+  .reasons .reason {
+    position: relative;
+    float: left;
+    width: 33.33333%;
+    color: white; }
+    /* line 74, components/_home.scss */
+    .reasons .reason h3 {
+      margin-top: 1rem;
+      height: 6rem; }
+    /* line 79, components/_home.scss */
+    .reasons .reason:hover {
+      color: white; }
+    /* line 82, components/_home.scss */
+    .reasons .reason a {
+      padding: 3rem;
+      display: block;
+      color: white; }
+      /* line 86, components/_home.scss */
+      .reasons .reason a:hover {
+        color: white; }
+    /* line 90, components/_home.scss */
+    .reasons .reason p {
+      height: 8rem; }
+  /* line 94, components/_home.scss */
+  .reasons .group-runs {
+    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url("/images/group-run.jpg"); }
+    /* line 98, components/_home.scss */
+    .reasons .group-runs:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/group-run.jpg"); }
+  /* line 104, components/_home.scss */
+  .reasons .missions {
+    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url("/images/group-run.jpg"); }
+    /* line 108, components/_home.scss */
+    .reasons .missions:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/group-run.jpg"); }
+  /* line 114, components/_home.scss */
+  .reasons .coaches {
+    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url("/images/group-run.jpg"); }
+    /* line 118, components/_home.scss */
+    .reasons .coaches:hover {
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/group-run.jpg"); }
+
 /* line 1, components/_search.scss */
 ul.search-filter {
   white-space: nowrap;
