@@ -100,16 +100,20 @@ trainers:
     goals.
   :photo: "/uploads/runner/avatar/33131/GG_profile_pic.jpg"
 ---
-%h1.strong Group runs
-%p.lead
-  We run in a group to a local organisation that needs help, complete a
-  task like painting a fence or planing a tree, have a fun fitness session,
-  and run back in 90 minutes. All fitness levels are welcome and we never
-  leave anyone behind.
 
-
-
-
+- content_for(:splash) do
+  .run-splash
+    .run-splash-image
+      = image_tag("group-run.jpg", class: "img-fluid")
+      .slash
+    .run-splash-caption
+      .container
+        %h1.strong Group runs
+        %p
+          We run in a group to a local organisation that needs help, complete a
+          task like painting a fence or planing a tree, have a fun fitness session,
+          and run back in 90 minutes. All fitness levels are welcome and we never
+          leave anyone behind.
 
 .run-infographic
   %h2 These are the steps to reaching your running goal
@@ -143,41 +147,6 @@ trainers:
         %h3 Step four
         %h4.strong Stretch
         %p Looking after you is also important to us. We have a certified trainer who leads the runs and makes sure you reach your goals
-
-
-
-
-
-.run-infographic-large
-  %h2 These are the steps to reaching your running goal
-  .row
-    .step.col-md-3
-      = image_tag("running.svg")
-    .step.col-md-3
-      = image_tag("running.svg")
-    .step.col-md-3
-      = image_tag("running.svg")
-    .step.col-md-3
-      = image_tag("running.svg")
-  .row
-    %hr
-  .row
-    .step.col-md-3
-      %h3 Step one
-      %h4.strong Run
-      %p We organise weekly group runs which are like flash mobs for good
-    .step.col-md-3
-      %h3 Step two
-      %h4.strong Help
-      %p We run to community organisations and help them with tasks such as gardening or renovating.
-    .step.col-md-3
-      %h3 Step three
-      %h4.strong Run
-      %p We like to have fun and run home. <strike>Sometimes treating ourselves to a lemonade in the local pub</strike>.
-    .step.col-md-3
-      %h3 Step four
-      %h4.strong Stretch
-      %p Looking after you is also important to us. We have a certified trainer who leads the runs and makes sure you reach your goals
 
 .text-xs-center
   %h2.strong Our trainers
