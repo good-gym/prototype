@@ -1,62 +1,22 @@
-.home-page-splash {
-  position: relative;
+.header {
   text-align: center;
-  margin-bottom: 2rem;
+  color: #fff;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    image_url("home-page-splash.jpg");
 
-  .home-page-splash-image {
-    background:rgba(0,0,0,1);
-    max-height: 500px;
-    overflow: hidden;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
 
-    img {
-      width: 100%;
-      opacity: 0.5;
-      display: block;
-      max-width: 100%;
-      /* just in case, to force correct aspect ratio */
-      height: auto !important;
-      width: auto\9; /* ie8+9 */
-      /* lt ie8 */
-      -ms-interpolation-mode: bicubic;
+  .intro-text {
+    position: relative;
+    padding: 20% 0 15% 0;
 
-      @include media-breakpoint-up(md) {
-        margin-top: -75px;
-      }
-    }
-  }
-
-  h1 {
-    color: white;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    width: 80%;
-    transform: translate(-50%, -50%);
-
-    @include media-breakpoint-up(sm) {
-      top: 40%;
-      font-size: 3rem;
-      br { display: none; }
-    }
-    @include media-breakpoint-up(md) {
+    h1 {
       font-size: 4rem;
-    }
-  }
-  .home-page-splash-text {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    @include media-breakpoint-up(sm) {
-      font-size: 1.2rem;
-      color: white;
-      bottom: 5rem;
-      position: absolute;
-      top: 60%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    @include media-breakpoint-up(md) {
-      font-size: 1.5rem;
+      margin-bottom: 2rem;
     }
   }
 }

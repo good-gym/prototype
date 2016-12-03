@@ -1,17 +1,13 @@
 - content_for :splash do
-  .home-page-splash
-    .home-page-splash-image
-      = image_tag("home-page-splash.jpg", class: "img-fluid")
-    %h1.strong Do Good, <br> Get Fit
-    .home-page-splash-text
-      %p
-        We are a running club that does good.
-        %br/
-        To reach out to the elderly, meet like minded people and become in community activities.
-      %p
-        We have completed
-        %strong 24,000
-        runs and good deeds to date.
+  %section#home.header
+    .container
+      .intro-text
+        %h1.strong Do Good, Get Fit
+        %p.lead
+          We are a running club that does good.
+          %br/
+          To reach out to the elderly, meet like minded people and become
+          involved in community activities.
 
 .text-sm-center
   %form.form-inline
