@@ -51,3 +51,88 @@
           %input.form-control{ placeholder: "Postcode" }
           %span.input-group-btn
             =link_to "Search", "/search", class: "btn btn-primary"
+
+%section.text-sm-center
+  .container
+    .section-title
+      %h4 Our GoodGyms
+
+%section.google-map
+  #map
+
+:javascript
+  function initMap() {
+    var uk = {lat: 54.05, lng: 3.436};
+    var bounds = new google.maps.LatLngBounds();
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 5,
+      center: uk,
+      styles: [
+        {"elementType":"geometry","stylers":[{"color":"#f5f5f5"}]},
+        {"elementType":"labels.icon","stylers":[{"visibility":"off"}]},
+        {"elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},
+        {"elementType":"labels.text.stroke","stylers":[{"color":"#f5f5f5"}]},
+        {"featureType":"administrative.land_parcel","stylers":[{"visibility":"off"}]},
+        {"featureType":"administrative.land_parcel","elementType":"labels.text.fill","stylers":[{"color":"#bdbdbd"}]},
+        {"featureType":"administrative.neighborhood","stylers":[{"visibility":"off"}]},
+        {"featureType":"poi","elementType":"geometry","stylers":[{"color":"#eeeeee"}]},
+        {"featureType":"poi","elementType":"labels.text","stylers":[{"visibility":"off"}]},
+        {"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},
+        {"featureType":"poi.business","stylers":[{"visibility":"off"}]},
+        {"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#e5e5e5"}]},
+        {"featureType":"poi.park","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]},
+        {"featureType":"road","elementType":"geometry","stylers":[{"color":"#ffffff"}]},
+        {"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},
+        {"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
+        {"featureType":"road.arterial","stylers":[{"visibility":"off"}]},
+        {"featureType":"road.arterial","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},
+        {"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#dadada"}]},
+        {"featureType":"road.highway","elementType":"labels","stylers":[{"visibility":"off"}]},
+        {"featureType":"road.highway","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},
+        {"featureType":"road.local","stylers":[{"visibility":"off"}]},
+        {"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]},
+        {"featureType":"transit","stylers":[{"visibility":"off"}]},
+        {"featureType":"transit.line","elementType":"geometry","stylers":[{"color":"#e5e5e5"}]},
+        {"featureType":"transit.station","elementType":"geometry","stylers":[{"color":"#eeeeee"}]},
+        {"featureType":"water","elementType":"geometry","stylers":[{"color":"#c9c9c9"}]},
+        {"featureType":"water","elementType":"labels.text","stylers":[{"visibility":"off"}]},
+        {"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]}
+      ]
+    });
+    var areas = [
+      {"name":"Barnet","lat":51.6569225,"lng":-0.1949252,"slug":"barnet","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/57/GoodGym_Barnet.png"},
+      {"name":"Bath","lat":51.3815142,"lng":-2.3543178,"slug":"bath","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/47/GoodGym_Bath.png"},
+      {"name":"Bournemouth","lat":50.719164,"lng":-1.880769,"slug":"bournemouth","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/17/GoodGym_Bournemouth.png"},
+      {"name":"Brent","lat":51.5493514,"lng":-0.2203891,"slug":"brent","image":"https://gg-api.s3.amazonaws.com/"},
+      {"name":"Bristol","lat":51.3629495,"lng":-2.3349134,"slug":"bristol","image":"https://gg-api.s3.amazonaws.com/"},
+      {"name":"Camden","lat":51.52832,"lng":-0.1507404,"slug":"camden","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/7/goodgym_camden_logo.png"},
+      {"name":"Chelmsford","lat":51.7355868,"lng":0.4685497,"slug":"chelmsford","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/71/GG_Chelmsfordsqaure.png"},
+      {"name":"Colchester","lat":51.895927,"lng":0.891874,"slug":"colchester","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/73/goodgym_colchester.png"},
+      {"name":"Croydon","lat":51.376165,"lng":-0.098234,"slug":"croydon","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/50/GoodGym_Croydon.png"},
+      {"name":"Ealing","lat":51.5132954,"lng":-0.3043315,"slug":"ealing","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/18/GoodGym_Ealing__2_.png"},
+      {"name":"Greenwich","lat":51.4844931,"lng":-0.0039174,"slug":"greenwich","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/37/goodgym_greenwich.png"},
+      {"name":"Hackney","lat":51.5517953,"lng":-0.0646437,"slug":"hackney","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/8/goodgym_Hackney.png"},
+      {"name":"Hammersmith and Fulham","lat":51.499017,"lng":-0.2291497,"slug":"hammersmith-and-fulham","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/55/GoodGym_Hammersmith_and_Fulham.png"},
+      {"name":"Haringey","lat":51.5881811,"lng":-0.0740529,"slug":"haringey","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/31/goodgym_Haringey.png"},
+      {"name":"Hounslow","lat":51.4609218,"lng":-0.373149,"slug":"hounslow","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/114/goodgym_hounslow.png"},
+      {"name":"Islington","lat":51.5489875,"lng":-0.1058247,"slug":"islington","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/15/goodgym_Islington.png"},
+      {"name":"Lambeth","lat":51.4640674,"lng":-0.1201407,"slug":"lambeth","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/12/goodgym_lambeth.png"},
+      {"name":"Lewisham","lat":51.4801655,"lng":0.0172228,"slug":"lewisham","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/24/GoodGym_Lewisham.png"},
+      {"name":"Newham","lat":51.5400632,"lng":-0.0105069,"slug":"newham","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/11/goodgym_newham_logo.png"},
+      {"name":"Redbridge","lat":51.58861,"lng":0.0823976,"slug":"redbridge","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/44/goodgym_redbridge.png"},
+      {"name":"Richmond","lat":51.461311,"lng":-0.303742,"slug":"richmond","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/36/GoodGym_Richmond.png"},
+      {"name":"Sheffield","lat":53.381129,"lng":-1.470085,"slug":"sheffield","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/28/goodgym_sheffield.png"},
+      {"name":"Southwark","lat":51.4655545,"lng":-0.0667096,"slug":"southwark","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/23/GoodGym_Southwark.png"},
+      {"name":"Tower Hamlets","lat":51.5193163,"lng":-0.0323334,"slug":"tower-hamlets","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/4/goodgym_TowerHamlets.png"},
+      {"name":"Wandsworth","lat":51.4570716,"lng":-0.1817824,"slug":"wandsworth","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/30/GG_Wandsworthsquare.png"},
+      {"name":"Westminster","lat":51.516792,"lng":-0.1433666,"slug":"westminster","image":"https://gg-api.s3.amazonaws.com/uploads/area/logo_image/14/goodgym_Westminster.png"}]
+    for (var i = 0; i < areas.length; i++) {
+      var marker = new google.maps.Marker({
+        map: map,
+        position: areas[i],
+      });
+      bounds.extend(marker.position);
+    }
+    map.fitBounds(bounds);
+  }
+%script{ async: true, defer: true, src: "https://maps.googleapis.com/maps/api/js?key=AIzaSyB3JHYuDWCVCoDk6nnveEtgJ6XYqOSIBPY&callback=initMap" }
