@@ -1,50 +1,53 @@
-- content_for :splash do
-  %section#home.header
-    .container
-      .intro-text
-        %h1.strong Do Good, Get Fit
-        %p.lead
-          GoodGym helps you get fit by doing good.
-          %br/
-          We’re a community of runners that combines regular exercise with helping our communities.
+%section#home.header
+  .container
+    .intro-text
+      %h1.strong Do Good, Get Fit
+      %p
+        GoodGym helps you get fit by doing good.
+        %br/
+        We’re a community of runners that combines regular
+        exercise with helping our communities.
 
-#section#reasons
-  %h2 3 reasons to run
+.container
+  %section.section-title
+    %h2 3 reasons to run
 
-.reasons
-  .reason.group-runs
-    = link_to "/group-runs" do
-      %h3.strong Group runs
-      %p.lead
-        Fancy something new?
-        Meet new people and make your area a better place.
-      %div
-        .btn.btn-secondary More info
-  .reason.missions
-    = link_to "/missions" do
-      %h3.strong Run missions
-      %p.lead
-        One off mission.
-        Make
-        %strike important deliveries to an isolated older person.
-      %div
-        .btn.btn-secondary More info
+  .reasons
+    .reason.group-runs
+      = link_to "/group-runs" do
+        %h3.strong Group runs
+        %p
+          Fancy something new?
+          Meet new people and make your area a better place.
+        %div
+          .btn.btn-secondary More info
+    .reason.missions
+      = link_to "/missions" do
+        %h3.strong Run missions
+        %p
+          One off mission.
+          Make
+          %strike important deliveries to an isolated older person.
+        %div
+          .btn.btn-secondary More info
 
-  .reason.coaches
-    = link_to "/run-to-an-older-person" do
-      %h3.strong Run to an older person
-      %p.lead
-        Regular pairing with weekly runs to older person.
-        They motivate your run, you motivate their life.
-      %div
-        .btn.btn-secondary More info
+    .reason.coaches
+      = link_to "/run-to-an-older-person" do
+        %h3.strong Run to an older person
+        %p
+          Regular pairing with weekly runs to older person.
+          They motivate your run, you motivate their life.
+        %div
+          .btn.btn-secondary More info
 
-%section.text-sm-center
-  %form.form-inline
-    .form-group
+  %section.text-sm-center
+    .section-title
       %h4 Find your nearest run
-      %label.sr-only{ placeholder: "Postcode" }
-      .input-group
-        %input.form-control{ placeholder: "Postcode" }
-        %span.input-group-btn
-          =link_to "Search", "/search", class: "btn btn-primary"
+
+    %form.form-inline
+      .form-group
+        %label.sr-only{ placeholder: "Postcode" }
+        .input-group
+          %input.form-control{ placeholder: "Postcode" }
+          %span.input-group-btn
+            =link_to "Search", "/search", class: "btn btn-primary"

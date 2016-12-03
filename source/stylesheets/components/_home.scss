@@ -1,5 +1,5 @@
 .header {
-  max-height: 500px;
+  max-height: 600px;
   text-align: center;
   color: #fff;
   background:
@@ -15,7 +15,7 @@
 
   .intro-text {
     position: relative;
-    padding: 20% 0 15% 0;
+    padding: 10% 0 15% 0;
 
     h1 {
       font-size: 4rem;
@@ -27,18 +27,25 @@
 
       @include media-breakpoint-up(lg) {
         font-size: 1.5rem;
+        padding: 0 20%;
       }
     }
   }
 }
 
+.section-title {
+  text-align: center;
+  margin: 4rem 0;
+}
+
 .reasons {
   @include make-row();
   text-align: center;
-  p { font-weight: bolder; }
 
   color: white;
   .reason {
+    background-size: cover;
+    background-repeat: none;
     position: relative;
     float: left;
     width: 33.33333%;
@@ -56,22 +63,37 @@
       color: white;
       &:hover {
         color: white;
+        text-decoration: none;
       }
     }
     p {
-      height: 8rem;
+      height: 16rem;
+      display: block;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      font-weight: bold;
+    }
+    .btn {
+      border-radius: 0;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: $brand-primary;
+      padding: 0.5rem 3rem;
     }
   }
   .group-runs {
     background:
       linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
       image_url("group-run.jpg");
+    background-position: center top;
     &:hover {
       background:
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         image_url("group-run.jpg");
+      background-position: center top;
     }
   }
+
   .missions {
     background:
       linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
