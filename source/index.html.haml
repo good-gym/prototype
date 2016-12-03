@@ -4,22 +4,11 @@
       .intro-text
         %h1.strong Do Good, Get Fit
         %p.lead
-          We are a running club that does good.
+          GoodGym helps you get fit by doing good.
           %br/
-          To reach out to the elderly, meet like minded people and become
-          involved in community activities.
+          We’re a community of runners that combines regular exercise with helping our communities.
 
-.text-sm-center
-  %form.form-inline
-    .form-group
-      %h4 Find your nearest run
-      %label.sr-only{ placeholder: "Postcode" }
-      .input-group
-        %input.form-control{ placeholder: "Postcode" }
-        %span.input-group-btn
-          =link_to "Search", "/search", class: "btn btn-primary"
-
-.text-sm-center
+#section#reasons
   %h2 3 reasons to run
 
 .reasons
@@ -49,3 +38,13 @@
         They motivate your run, you motivate their life.
       %div
         .btn.btn-secondary More info
+
+%section.text-sm-center
+  %form.form-inline
+    .form-group
+      %h4 Find your nearest run
+      %label.sr-only{ placeholder: "Postcode" }
+      .input-group
+        %input.form-control{ placeholder: "Postcode" }
+        %span.input-group-btn
+          =link_to "Search", "/search", class: "btn btn-primary"
