@@ -1,0 +1,31 @@
+.run-cta {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    position: absolute;
+    right: 0;
+    bottom: 0.25rem;
+
+    background-color: $brand-primary;
+    font-family: "lft_etica";
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0px 2px black;
+    padding: 0.1rem 0.25rem;
+
+    &:before {
+      content: "";
+      background-image: linear-gradient(to top right, rgba(0,0,0,0), rgba(0,0,0,0) 47%, rgba(0,0,0,1) 47%, rgba(0,0,0,1) 53%, $brand-primary 53%, $brand-primary);
+      display: block;
+      width: 0.5rem;
+      height: 1.7rem;
+      position: absolute;
+      top: 0;
+      left: -0.5rem;
+    }
+  }
+}

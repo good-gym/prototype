@@ -19,6 +19,6 @@ module Helpers
 
   def my_data(name)
     @data ||= {}
-    @data[name] ||= YAML.load_file(File.join("data/#{name}.yml"))
+    @data[name] ||= YAML.load ERB.new(File.read("data/#{name}.yml")).result
   end
 end

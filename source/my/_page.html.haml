@@ -1,0 +1,51 @@
+.row
+  .col-md-3
+    .card.text-sm-center.my-profile
+      .card-block
+        = image_tag runner.image, class: "rounded-circle"
+        %h5= runner.name
+        %p= runner.bio
+
+        %ul
+          %li #{runner.runs} runs
+          %li #{runner.good_deeds} good deeds
+          %li #{runner.cheers} cheers
+
+    .card.badges
+      .card-block
+        %h5 Achievements
+        %ul
+          - runner.badges.each do |slug, name|
+            %li.badge{ class: slug }
+              = image_tag("http://goodgym-production.s3.amazonaws.com/badges/#{slug}.png", title: name)
+              %span.sr-only= name
+
+  .col-md-6
+    - if runner.show_welcome_banner?
+      .card
+        .card-block
+          %h5 Welcome to GoodGym!
+
+  .col-md-3
+    %h4.strong.text-sm-center
+      Reasons to run
+
+    .card
+      .run-cta
+        = image_tag "coach.jpg"
+        %h5 Your coach
+      .card-block
+        %p
+          GoodGym pairs runners with older people that are feeling isolated or
+          lonely and that would really benefit from a friendly visit once a week.
+        = link_to "Get Started", "/my/coach", class: "btn btn-primary btn-block"
+
+    .card
+      .run-cta
+        = image_tag "missions.jpg"
+        %h5 Missions
+      .card-block
+        %p
+          Run one off missions to help older people with things they are
+          struggling to do for themselves.
+        = link_to "Get Started", "/my/missions", class: "btn btn-primary btn-block"

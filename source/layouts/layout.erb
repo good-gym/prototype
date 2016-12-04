@@ -20,7 +20,13 @@
       <%= partial :header %>
     </div>
 
-    <%= yield %>
+    <% if current_page.metadata[:page][:wide] == false %>
+      <div class="container">
+        <%= yield %>
+      <div>
+    <% else %>
+      <%= yield %>
+    <% end %>
 
     <%= partial :footer %>
 

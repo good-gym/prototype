@@ -1,0 +1,40 @@
+---
+patrick:
+  name: Patrick Sinclair
+  bio: Doing good since Feb 18 2013
+  image: "https://gg-api.s3.amazonaws.com/uploads/runner/avatar/14/large_profile_pic_patrick.jpg"
+  runs: 439
+  good_deeds: 156
+  cheers: 453
+  badges:
+    - ["strava-connected", "Strava Connected"]
+    - ["join-race-team", "Join Race Team"]
+    - ["twenty-five-cheers-received", "Twenty Five Cheers Received"]
+    - ["ten-cheers-received", "Ten Cheers Received"]
+    - ["log-a-ten-miles", "Log A Ten Miles"]
+    - ["log-a-half-marathon", "Log A Half Marathon"]
+    - ["log-a-ten-k", "Log A Ten K"]
+    - ["log-a-five-k", "Log A Five K"]
+    - ["three-group-run-areas", "Three Group Run Areas"]
+    - ["one-hundred-good-deeds", "One Hundred Good Deeds"]
+    - ["fifty-good-deeds", "Fifty Good Deeds"]
+    - ["twitter-connected", "Twitter Connected"]
+    - ["first-race", "First Race"]
+    - ["first-group-run-away", "First Group Run Away"]
+    - ["first-weekend-mission", "First Weekend Mission"]
+    - ["twenty-five-good-deeds", "Twenty Five Good Deeds"]
+    - ["first-mission", "First Mission"]
+    - ["first-training-run", "First Training Run"]
+    - ["fifteen-good-deeds", "Fifteen Good Deeds"]
+    - ["ten-good-deeds", "Ten Good Deeds"]
+    - ["five-good-deeds", "Five Good Deeds"]
+    - ["first-good-deed", "First Good Deed"]
+new_runner:
+  name: Jane Doe
+  bio: "Doing good since <%= Time.now.strftime('%b %Y') %>"
+  image: "/images/runner_profile.png"
+  runs: 0
+  good_deeds: 0
+  cheers: 0
+  badges: []
+  show_welcome_banner?: true
