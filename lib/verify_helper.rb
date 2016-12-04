@@ -21,4 +21,22 @@ module VerifyHelper
       end
     end
   end
+
+  def my_references_path
+    "/my/references"
+  end
+  
+  def dbs_path
+    "/my/dbs"
+  end
+
+  def todo_button(name, link)
+    link_to(name, link, class: "btn-todo")
+  end
+
+  def done_button(name)
+    content_tag(:div, class: "btn btn-lg btn-block btn-success disabled") do
+      (name + content_tag(:i, " ", class: "pull-right glyphicon glyphicon-ok")).html_safe
+    end
+  end
 end

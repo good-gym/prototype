@@ -17,6 +17,13 @@ module Helpers
     "/login"
   end
 
+  def telephone_to(number, icon: true)
+    return if number.blank?
+
+    klass = "telephone-icon" if icon
+    link_to number, "tel:#{number}", class: klass
+  end
+  
   def my_data(name)
     @data ||= {}
     @data[name] ||= YAML.load ERB.new(File.read("data/#{name}.yml")).result

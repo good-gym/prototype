@@ -1,0 +1,89 @@
+---
+wide: false
+runner: new_runner
+---
+
+.row
+  .col-md-9
+    - if runner.pairing_verified?
+      %h1.strong We'll be in touch about getting your coach
+    - else
+      .text-xs-center
+        = image_tag "mission-verified.png", height: 200
+        %h1.strong.text-xs-center
+          Get verified
+          %br
+          %small to run weekly visits to an older person
+
+        %p.lead
+          Our coaches are isolated older people. To visit them you
+          will need to become verified following the steps below.
+
+      .row
+        .col-md-6
+          %h2 Become a member
+          %p
+            If you're a member we’ll give you personal fitness advice,
+            help you achieve your goals, send you one off missions,
+            send you a new GoodGym running top and can pair you with an older
+            person to be your coach.
+          - if runner.is_member?
+            = done_button("Member")
+          - else
+            = todo_button("Become a member", membership_flow_path)
+
+        .col-md-6
+          %h2 Background Check
+          %p
+            To go on missions you need to perform a background check (DBS).
+            This involves presenting a number of documents to someone at GoodGym.
+          - if runner.has_a_dbs_check?
+            = done_button("Background Check")
+          - else
+            = todo_button("Start Background Check", dbs_path)
+
+      .row.mt-2
+        .col-md-6
+          %h2 Referees
+          %p
+            References help assess whether you are suitable to visit an isolated older person.
+          - if runner.reference_checked?
+            = done_button("Referees provided")
+          - else
+            = todo_button("Give Referees", my_references_path)
+
+        .col-md-6
+          %h2 Coach Training
+          %p
+            You've told us you'd like a GoodGym coach. To prepare you for working
+            with older people you need to complete this training.
+
+          - if runner.passed_coach_training?
+            = done_button("Coach training")
+          - elsif runner.needs_to_retake_coach_training?
+            = todo_button("Retake coach training", "/training/coach-training")
+          - else
+            = todo_button("Complete coach training", "/training/coach-training")
+
+  .col-md-3
+    = partial "my/help_verify"
+
+    .card
+      .run-cta
+        = image_tag "coach.jpg"
+        %h5 Your coach
+      .card-block
+        %p
+          The older person that you will visit is your 'coach' because
+          they will motivate you to get out for your run.
+
+    .card
+      .card-block
+        %h4.strong Coaches nearby
+
+        - my_data(:coaches).each do |coach|
+          %h4.card-title
+            = coach[:name]
+            %br
+            %small= coach[:distance]
+          %p.card-text= coach[:description]

@@ -29,3 +29,9 @@ ul.badges {
   float: left;
   margin-right: 1rem;
 }
+
+.btn-todo {
+  @extend .btn;
+  @extend .btn-lg;
+  @extend .btn-primary;
+}
