@@ -1,0 +1,36 @@
+.card
+  .card-block
+    %h2.card-title.strong Your reasons to run
+
+    - if runner.wants_pairing?
+      .col-md-6
+        .card
+          .run-cta
+            = image_tag "coach.jpg"
+            %h5 Your coach
+          .card-block
+            %p
+              GoodGym pairs runners with older people that are feeling isolated or
+              lonely and that would really benefit from a friendly visit once a week.
+            = link_to "Get Started", "/my/coach", class: "btn btn-primary btn-block"
+
+    .col-md-6
+      %p.lead 3 missions coming up
+      = link_to "Check your mission dashboard", "/my/missions", class: "btn btn-primary btn-block"
+
+    .col-md-6
+      %p.lead Next group run details
+      = link_to "Sign up to the next run", "/happenings", class: "btn btn-primary btn-block"
+
+.card
+  .card-block
+    %h2.card-title.strong Your team news
+
+  - 10.times do
+    %hr
+    .card-block
+      %img.card-img-left{:alt => "Card image cap", :src => "http://placehold.it/350x150"}/
+
+      %h4.card-title Card title
+      %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+      %a.btn.btn-primary{:href => "#"} Go somewhere
