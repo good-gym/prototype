@@ -107,11 +107,13 @@
   .coaches {
     background:
       linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
-      image_url("group-run.jpg");
+      image_url("coach.jpg");
+    background-position: center top;
     &:hover {
       background:
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        image_url("group-run.jpg");
+        image_url("coach.jpg");
+      background-position: center top;
     }
   }
 }
