@@ -6,6 +6,7 @@ patrick:
   runs: 439
   good_deeds: 156
   cheers: 453
+  references: []
   badges:
     - ["strava-connected", "Strava Connected"]
     - ["join-race-team", "Join Race Team"]
@@ -36,6 +37,7 @@ new_runner:
   runs: 0
   good_deeds: 0
   cheers: 0
+  references: []
   badges: []
   show_welcome_banner?: true
   wants_coach?: true
