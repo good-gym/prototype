@@ -14,10 +14,15 @@
 
         = link_to "View your profile", "/runners/profile/", class: "btn btn-info"
 
-        %ul
-          %li #{runner.runs} runs
-          %li #{runner.good_deeds} good deeds
-          %li #{runner.cheers} cheers
+        %hr
+        
+        %dl.row.text-sm-left
+          %dt.col-sm-6 Runs
+          %dd.col-sm-6= runner.runs
+          %dt.col-sm-6 Good deeds
+          %dd.col-sm-6= runner.runs
+          %dt.col-sm-6 Cheers
+          %dd.col-sm-6= runner.cheers
 
         %ul.badges
           - runner.badges.each do |slug, name|
