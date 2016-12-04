@@ -1,0 +1,21 @@
+.carousel.slide#runs-carousel{ data: { ride: "carousel", interval: false } }
+  %ol.carousel-indicators
+    %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
+    %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
+    %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
+  .carousel-inner{:role => "listbox"}
+    - things.each_slice(3).each_with_index do |group, i|
+      .carousel-item{ class: i == 0 ? "active" : nil }
+        .row.text-xs-center
+          - group.each_with_index do |thing, j|
+            .col-md-3{ class: j == 0 ? "offset-md-1" : nil }
+              = image_tag thing[:image], alt: thing[:name]
+              %h3= thing[:name]
+              %p= thing[:description]
+
+  %a.left.carousel-control{"data-slide" => "prev", :href => "#carousel-example-generic", :role => "button"}
+    %span.icon-prev{"aria-hidden" => "true"}
+    %span.sr-only Previous
+  %a.right.carousel-control{"data-slide" => "next", :href => "#carousel-example-generic", :role => "button"}
+    %span.icon-next{"aria-hidden" => "true"}
+    %span.sr-only Next

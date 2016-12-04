@@ -17,7 +17,8 @@ module Helpers
     "/login"
   end
 
-  def trainers
-    current_page.metadata[:page][:trainers].map { |data| OpenStruct.new(data) }
+  def my_data(name)
+    @data ||= {}
+    @data[name] ||= YAML.load_file(File.join("data/#{name}.yml"))
   end
 end
