@@ -6309,72 +6309,40 @@ footer {
   background-image: linear-gradient(to bottom right, white, white 49%, #ED1C24 49%, #ED1C24); }
 
 /* line 1, components/_home.scss */
-.home-page-splash {
-  position: relative;
+.header {
+  max-height: 600px;
   text-align: center;
-  margin-bottom: 2rem; }
-  /* line 6, components/_home.scss */
-  .home-page-splash .home-page-splash-image {
-    background: black;
-    max-height: 500px;
-    overflow: hidden; }
-    /* line 11, components/_home.scss */
-    .home-page-splash .home-page-splash-image img {
-      width: 100%;
-      opacity: 0.5;
-      display: block;
-      max-width: 100%;
-      /* just in case, to force correct aspect ratio */
-      height: auto !important;
-      width: auto\9;
-      /* ie8+9 */
-      /* lt ie8 */
-      -ms-interpolation-mode: bicubic; }
-      @media (min-width: 768px) {
-        /* line 11, components/_home.scss */
-        .home-page-splash .home-page-splash-image img {
-          margin-top: -75px; } }
-  /* line 28, components/_home.scss */
-  .home-page-splash h1 {
-    color: white;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    width: 80%;
-    transform: translate(-50%, -50%); }
-    @media (min-width: 576px) {
-      /* line 28, components/_home.scss */
-      .home-page-splash h1 {
-        top: 40%;
-        font-size: 3rem; }
-        /* line 39, components/_home.scss */
-        .home-page-splash h1 br {
-          display: none; } }
-    @media (min-width: 768px) {
-      /* line 28, components/_home.scss */
-      .home-page-splash h1 {
-        font-size: 4rem; } }
-  /* line 45, components/_home.scss */
-  .home-page-splash .home-page-splash-text {
-    width: 80%;
-    margin: auto;
-    text-align: center; }
-    @media (min-width: 576px) {
-      /* line 45, components/_home.scss */
-      .home-page-splash .home-page-splash-text {
-        font-size: 1.2rem;
-        color: white;
-        bottom: 5rem;
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%); } }
-    @media (min-width: 768px) {
-      /* line 45, components/_home.scss */
-      .home-page-splash .home-page-splash-text {
-        font-size: 1.5rem; } }
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/home-page-splash.jpg");
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  box-shadow: 0 2px 2px 0px #000000; }
+  /* line 16, components/_home.scss */
+  .header .intro-text {
+    position: relative;
+    padding: 10% 0 15% 0; }
+    /* line 20, components/_home.scss */
+    .header .intro-text h1 {
+      font-size: 4rem;
+      margin-bottom: 2rem; }
+    /* line 24, components/_home.scss */
+    .header .intro-text p {
+      font-size: 1.25rem;
+      font-weight: 300; }
+      @media (min-width: 992px) {
+        /* line 24, components/_home.scss */
+        .header .intro-text p {
+          font-size: 1.5rem;
+          padding: 0 20%; } }
 
-/* line 64, components/_home.scss */
+/* line 36, components/_home.scss */
+.section-title {
+  text-align: center;
+  margin: 4rem 0; }
+
+/* line 41, components/_home.scss */
 .reasons {
   margin-right: -15px;
   margin-left: -15px;
@@ -6386,70 +6354,92 @@ footer {
     display: table;
     clear: both; }
   @media (min-width: 576px) {
-    /* line 64, components/_home.scss */
+    /* line 41, components/_home.scss */
     .reasons {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 768px) {
-    /* line 64, components/_home.scss */
+    /* line 41, components/_home.scss */
     .reasons {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 992px) {
-    /* line 64, components/_home.scss */
+    /* line 41, components/_home.scss */
     .reasons {
       margin-right: -15px;
       margin-left: -15px; } }
   @media (min-width: 1200px) {
-    /* line 64, components/_home.scss */
+    /* line 41, components/_home.scss */
     .reasons {
       margin-right: -15px;
       margin-left: -15px; } }
-  /* line 67, components/_home.scss */
-  .reasons p {
-    font-weight: bolder; }
-  /* line 70, components/_home.scss */
+  /* line 46, components/_home.scss */
   .reasons .reason {
+    background-size: cover;
+    background-repeat: none;
     position: relative;
     float: left;
     width: 33.33333%;
     color: white; }
-    /* line 74, components/_home.scss */
+    /* line 52, components/_home.scss */
     .reasons .reason h3 {
       margin-top: 1rem;
       height: 6rem; }
-    /* line 79, components/_home.scss */
+    /* line 57, components/_home.scss */
     .reasons .reason:hover {
       color: white; }
-    /* line 82, components/_home.scss */
+    /* line 60, components/_home.scss */
     .reasons .reason a {
       padding: 3rem;
       display: block;
       color: white; }
-      /* line 86, components/_home.scss */
+      /* line 64, components/_home.scss */
       .reasons .reason a:hover {
-        color: white; }
-    /* line 90, components/_home.scss */
+        color: white;
+        text-decoration: none; }
+    /* line 69, components/_home.scss */
     .reasons .reason p {
-      height: 8rem; }
-  /* line 94, components/_home.scss */
+      height: 16rem;
+      display: block;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+      font-weight: bold; }
+    /* line 76, components/_home.scss */
+    .reasons .reason .btn {
+      border-radius: 0;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #ED1C24;
+      padding: 0.5rem 3rem; }
+  /* line 84, components/_home.scss */
   .reasons .group-runs {
-    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url("/images/group-run.jpg"); }
-    /* line 98, components/_home.scss */
+    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url("/images/group-run.jpg");
+    background-position: center top; }
+    /* line 89, components/_home.scss */
     .reasons .group-runs:hover {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/group-run.jpg"); }
-  /* line 104, components/_home.scss */
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/group-run.jpg");
+      background-position: center top; }
+  /* line 97, components/_home.scss */
   .reasons .missions {
-    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url("/images/group-run.jpg"); }
-    /* line 108, components/_home.scss */
+    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url("/images/missions.jpg");
+    background-position: center top; }
+    /* line 102, components/_home.scss */
     .reasons .missions:hover {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/group-run.jpg"); }
-  /* line 114, components/_home.scss */
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/missions.jpg");
+      background-position: center top; }
+  /* line 109, components/_home.scss */
   .reasons .coaches {
-    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url("/images/group-run.jpg"); }
-    /* line 118, components/_home.scss */
+    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url("/images/coach.jpg");
+    background-position: center top; }
+    /* line 114, components/_home.scss */
     .reasons .coaches:hover {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/group-run.jpg"); }
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/images/coach.jpg");
+      background-position: center top; }
+
+/* line 123, components/_home.scss */
+#map {
+  width: 100%;
+  height: 400px; }
 
 /* line 1, components/_search.scss */
 ul.search-filter {
@@ -6605,13 +6595,13 @@ ul.search-filter li {
     padding: 0rem 1rem; } }
 
 /* line 94, components/_runs.scss */
-#trainers .carousel-control.right, #trainers .carousel-control.left {
+#runs-carousel .carousel-control.right, #runs-carousel .carousel-control.left {
   background-image: none; }
 /* line 97, components/_runs.scss */
-#trainers .carousel-control .icon-next, #trainers .carousel-control .icon-prev {
+#runs-carousel .carousel-control .icon-next, #runs-carousel .carousel-control .icon-prev {
   color: black; }
 /* line 101, components/_runs.scss */
-#trainers img {
+#runs-carousel img {
   width: 100px;
   height: 100px;
   border-radius: 100%; }
@@ -6625,19 +6615,52 @@ ul.search-filter li {
     border-radius: 100%;
     border: 3px solid #fff; }
 
-/* line 11, components/_my.scss */
-.badges ul {
+/* line 10, components/_my.scss */
+ul.badges {
   padding-left: 0px;
   list-style: none;
   text-align: center; }
-/* line 16, components/_my.scss */
-.badges .badge {
-  width: 30%;
-  background-color: #ED1C24;
-  border-radius: 100%;
-  display: inline-block;
-  margin: 0.1rem; }
-  /* line 22, components/_my.scss */
-  .badges .badge img {
-    width: 100%;
-    height: auto; }
+  /* line 15, components/_my.scss */
+  ul.badges .badge {
+    width: 20%;
+    background-color: #ED1C24;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 0.1rem; }
+    /* line 21, components/_my.scss */
+    ul.badges .badge img {
+      width: 100%;
+      height: auto; }
+
+/* line 28, components/_my.scss */
+.card-img-left {
+  float: left;
+  margin-right: 1rem; }
+
+/* line 1, components/_run_cta.scss */
+.run-cta {
+  position: relative; }
+  /* line 4, components/_run_cta.scss */
+  .run-cta img {
+    width: 100%; }
+  /* line 8, components/_run_cta.scss */
+  .run-cta h1, .run-cta h2, .run-cta h3, .run-cta h4, .run-cta h5, .run-cta h6 {
+    position: absolute;
+    right: 0;
+    bottom: 0.25rem;
+    background-color: #ED1C24;
+    font-family: "lft_etica";
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0px 2px black;
+    padding: 0.1rem 0.25rem; }
+    /* line 20, components/_run_cta.scss */
+    .run-cta h1:before, .run-cta h2:before, .run-cta h3:before, .run-cta h4:before, .run-cta h5:before, .run-cta h6:before {
+      content: "";
+      background-image: linear-gradient(to top right, transparent, transparent 47%, black 47%, black 53%, #ED1C24 53%, #ED1C24);
+      display: block;
+      width: 0.5rem;
+      height: 1.7rem;
+      position: absolute;
+      top: 0;
+      left: -0.5rem; }
