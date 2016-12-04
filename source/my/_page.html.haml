@@ -23,22 +23,30 @@
   .col-md-6
     - if runner.show_welcome_banner?
       .card
+        - if runner.wants_coach?
+          .run-cta
+            = image_tag "coach.jpg"
+            %h5 Your coach
+
         .card-block
-          %h5 Welcome to GoodGym!
+          %h4.strong Welcome to GoodGym!
+          %p.lead To get you paired with a coach we need to get you verified.
+          = link_to "Get Verified", "/my/coach", class: "btn btn-lg btn-primary"
 
   .col-md-3
     %h4.strong.text-sm-center
       Reasons to run
 
-    .card
-      .run-cta
-        = image_tag "coach.jpg"
-        %h5 Your coach
-      .card-block
-        %p
-          GoodGym pairs runners with older people that are feeling isolated or
-          lonely and that would really benefit from a friendly visit once a week.
-        = link_to "Get Started", "/my/coach", class: "btn btn-primary btn-block"
+    - unless runner.wants_coach?
+      .card
+        .run-cta
+          = image_tag "coach.jpg"
+          %h5 Your coach
+        .card-block
+          %p
+            GoodGym pairs runners with older people that are feeling isolated or
+            lonely and that would really benefit from a friendly visit once a week.
+          = link_to "Get Started", "/my/coach", class: "btn btn-primary btn-block"
 
     .card
       .run-cta
@@ -48,4 +56,13 @@
         %p
           Run one off missions to help older people with things they are
           struggling to do for themselves.
-        = link_to "Get Started", "/my/missions", class: "btn btn-primary btn-block"
+        = link_to "Sign up for missions", "/my/missions", class: "btn btn-primary btn-block"
+
+    .card
+      .run-cta
+        = image_tag "group-run.jpg"
+        %h5 Group Runs
+      .card-block
+        %p
+          Fancy something new? Meet new people and make your area a better place.
+        = link_to "Sign up to the next run", "/happenings", class: "btn btn-primary btn-block"

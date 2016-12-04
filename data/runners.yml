@@ -38,3 +38,4 @@ new_runner:
   cheers: 0
   badges: []
   show_welcome_banner?: true
+  wants_coach?: true
