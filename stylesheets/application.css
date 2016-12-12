@@ -1,4 +1,4 @@
-/* line 13, application.css.scss */
+/* line 14, application.css.scss */
 h1.strong, h2.strong, h3.strong, h4.strong, h5.strong, h6.strong {
   font-family: "lft_etica";
   text-transform: uppercase; }
@@ -833,29 +833,29 @@ pre {
       margin-left: -15px; } }
 
 /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+.col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
   @media (min-width: 576px) {
     /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 768px) {
     /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 992px) {
     /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 1200px) {
     /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -1124,7 +1124,7 @@ pre {
     width: 91.66667%; }
 
   /* line 46, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-12 {
+  .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters {
     float: left;
     width: 100%; }
 
@@ -1306,7 +1306,7 @@ pre {
     width: 41.66667%; }
 
   /* line 46, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-6 {
+  .col-md-6, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters {
     float: left;
     width: 50%; }
 
@@ -3561,22 +3561,22 @@ tbody.collapse.in {
     content: "Browse"; }
 
 /* line 6, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_nav.scss */
-.nav {
+.nav, footer.footer .footer__links, footer.footer .footer__social, footer.footer .footer__smallprint {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }
 
 /* line 12, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_nav.scss */
-.nav-link {
+.nav-link, footer.footer .footer__links a, footer.footer .footer__social a, footer.footer .footer__smallprint a {
   display: inline-block; }
   /* line 21, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-  .nav-link:focus, .nav-link:hover {
+  .nav-link:focus, footer.footer .footer__links a:focus, footer.footer .footer__social a:focus, footer.footer .footer__smallprint a:focus, .nav-link:hover, footer.footer .footer__links a:hover, footer.footer .footer__social a:hover, footer.footer .footer__smallprint a:hover {
     text-decoration: none; }
   /* line 20, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_nav.scss */
-  .nav-link.disabled {
+  .nav-link.disabled, footer.footer .footer__links a.disabled, footer.footer .footer__social a.disabled, footer.footer .footer__smallprint a.disabled {
     color: #818a91; }
     /* line 37, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-    .nav-link.disabled, .nav-link.disabled:focus, .nav-link.disabled:hover {
+    .nav-link.disabled, footer.footer .footer__links a.disabled, footer.footer .footer__social a.disabled, footer.footer .footer__smallprint a.disabled, .nav-link.disabled:focus, footer.footer .footer__links a.disabled:focus, footer.footer .footer__social a.disabled:focus, footer.footer .footer__smallprint a.disabled:focus, .nav-link.disabled:hover, footer.footer .footer__links a.disabled:hover, footer.footer .footer__social a.disabled:hover, footer.footer .footer__smallprint a.disabled:hover {
       color: #818a91;
       cursor: not-allowed;
       background-color: transparent; }
@@ -3586,7 +3586,31 @@ tbody.collapse.in {
   display: inline-block; }
 /* line 39, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_nav.scss */
 .nav-inline .nav-item + .nav-item,
-.nav-inline .nav-link + .nav-link {
+.nav-inline .nav-link + .nav-link,
+.nav-inline footer.footer .footer__links a + .nav-link,
+footer.footer .footer__links .nav-inline a + .nav-link,
+.nav-inline footer.footer .footer__social a + .nav-link,
+footer.footer .footer__social .nav-inline a + .nav-link,
+.nav-inline footer.footer .footer__smallprint a + .nav-link,
+footer.footer .footer__smallprint .nav-inline a + .nav-link,
+.nav-inline footer.footer .footer__links .nav-link + a,
+footer.footer .footer__links .nav-inline .nav-link + a,
+.nav-inline footer.footer .footer__links a + a,
+footer.footer .footer__links .nav-inline a + a,
+footer.footer .footer__social .nav-inline .footer__links a + a,
+footer.footer .footer__smallprint .nav-inline .footer__links a + a,
+.nav-inline footer.footer .footer__social .nav-link + a,
+footer.footer .footer__social .nav-inline .nav-link + a,
+footer.footer .footer__links .nav-inline .footer__social a + a,
+.nav-inline footer.footer .footer__social a + a,
+footer.footer .footer__social .nav-inline a + a,
+footer.footer .footer__smallprint .nav-inline .footer__social a + a,
+.nav-inline footer.footer .footer__smallprint .nav-link + a,
+footer.footer .footer__smallprint .nav-inline .nav-link + a,
+footer.footer .footer__links .nav-inline .footer__smallprint a + a,
+footer.footer .footer__social .nav-inline .footer__smallprint a + a,
+.nav-inline footer.footer .footer__smallprint a + a,
+footer.footer .footer__smallprint .nav-inline a + a {
   margin-left: 1rem; }
 
 /* line 50, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_nav.scss */
@@ -3605,25 +3629,43 @@ tbody.collapse.in {
     .nav-tabs .nav-item + .nav-item {
       margin-left: 0.2rem; }
   /* line 64, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_nav.scss */
-  .nav-tabs .nav-link {
+  .nav-tabs .nav-link, .nav-tabs footer.footer .footer__links a, footer.footer .footer__links .nav-tabs a, .nav-tabs footer.footer .footer__social a, footer.footer .footer__social .nav-tabs a, .nav-tabs footer.footer .footer__smallprint a, footer.footer .footer__smallprint .nav-tabs a {
     display: block;
     padding: 0.5em 1em;
     border: 1px solid transparent;
     border-top-right-radius: 0.25rem;
     border-top-left-radius: 0.25rem; }
     /* line 21, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-    .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    .nav-tabs .nav-link:focus, .nav-tabs footer.footer .footer__links a:focus, footer.footer .footer__links .nav-tabs a:focus, .nav-tabs footer.footer .footer__social a:focus, footer.footer .footer__social .nav-tabs a:focus, .nav-tabs footer.footer .footer__smallprint a:focus, footer.footer .footer__smallprint .nav-tabs a:focus, .nav-tabs .nav-link:hover, .nav-tabs footer.footer .footer__links a:hover, footer.footer .footer__links .nav-tabs a:hover, .nav-tabs footer.footer .footer__social a:hover, footer.footer .footer__social .nav-tabs a:hover, .nav-tabs footer.footer .footer__smallprint a:hover, footer.footer .footer__smallprint .nav-tabs a:hover {
       border-color: #eceeef #eceeef #ddd; }
     /* line 37, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-    .nav-tabs .nav-link.disabled, .nav-tabs .nav-link.disabled:focus, .nav-tabs .nav-link.disabled:hover {
+    .nav-tabs .nav-link.disabled, .nav-tabs footer.footer .footer__links a.disabled, footer.footer .footer__links .nav-tabs a.disabled, .nav-tabs footer.footer .footer__social a.disabled, footer.footer .footer__social .nav-tabs a.disabled, .nav-tabs footer.footer .footer__smallprint a.disabled, footer.footer .footer__smallprint .nav-tabs a.disabled, .nav-tabs .nav-link.disabled:focus, .nav-tabs footer.footer .footer__links a.disabled:focus, footer.footer .footer__links .nav-tabs a.disabled:focus, .nav-tabs footer.footer .footer__social a.disabled:focus, footer.footer .footer__social .nav-tabs a.disabled:focus, .nav-tabs footer.footer .footer__smallprint a.disabled:focus, footer.footer .footer__smallprint .nav-tabs a.disabled:focus, .nav-tabs .nav-link.disabled:hover, .nav-tabs footer.footer .footer__links a.disabled:hover, footer.footer .footer__links .nav-tabs a.disabled:hover, .nav-tabs footer.footer .footer__social a.disabled:hover, footer.footer .footer__social .nav-tabs a.disabled:hover, .nav-tabs footer.footer .footer__smallprint a.disabled:hover, footer.footer .footer__smallprint .nav-tabs a.disabled:hover {
       color: #818a91;
       background-color: transparent;
       border-color: transparent; }
   /* line 37, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-  .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:hover,
+  .nav-tabs .nav-link.active, .nav-tabs footer.footer .footer__links a.active, footer.footer .footer__links .nav-tabs a.active, .nav-tabs footer.footer .footer__social a.active, footer.footer .footer__social .nav-tabs a.active, .nav-tabs footer.footer .footer__smallprint a.active, footer.footer .footer__smallprint .nav-tabs a.active, .nav-tabs .nav-link.active:focus, .nav-tabs footer.footer .footer__links a.active:focus, footer.footer .footer__links .nav-tabs a.active:focus, .nav-tabs footer.footer .footer__social a.active:focus, footer.footer .footer__social .nav-tabs a.active:focus, .nav-tabs footer.footer .footer__smallprint a.active:focus, footer.footer .footer__smallprint .nav-tabs a.active:focus, .nav-tabs .nav-link.active:hover, .nav-tabs footer.footer .footer__links a.active:hover, footer.footer .footer__links .nav-tabs a.active:hover, .nav-tabs footer.footer .footer__social a.active:hover, footer.footer .footer__social .nav-tabs a.active:hover, .nav-tabs footer.footer .footer__smallprint a.active:hover, footer.footer .footer__smallprint .nav-tabs a.active:hover,
   .nav-tabs .nav-item.open .nav-link,
+  .nav-tabs .nav-item.open footer.footer .footer__links a,
+  footer.footer .footer__links .nav-tabs .nav-item.open a,
+  .nav-tabs .nav-item.open footer.footer .footer__social a,
+  footer.footer .footer__social .nav-tabs .nav-item.open a,
+  .nav-tabs .nav-item.open footer.footer .footer__smallprint a,
+  footer.footer .footer__smallprint .nav-tabs .nav-item.open a,
   .nav-tabs .nav-item.open .nav-link:focus,
-  .nav-tabs .nav-item.open .nav-link:hover {
+  .nav-tabs .nav-item.open footer.footer .footer__links a:focus,
+  footer.footer .footer__links .nav-tabs .nav-item.open a:focus,
+  .nav-tabs .nav-item.open footer.footer .footer__social a:focus,
+  footer.footer .footer__social .nav-tabs .nav-item.open a:focus,
+  .nav-tabs .nav-item.open footer.footer .footer__smallprint a:focus,
+  footer.footer .footer__smallprint .nav-tabs .nav-item.open a:focus,
+  .nav-tabs .nav-item.open .nav-link:hover,
+  .nav-tabs .nav-item.open footer.footer .footer__links a:hover,
+  footer.footer .footer__links .nav-tabs .nav-item.open a:hover,
+  .nav-tabs .nav-item.open footer.footer .footer__social a:hover,
+  footer.footer .footer__social .nav-tabs .nav-item.open a:hover,
+  .nav-tabs .nav-item.open footer.footer .footer__smallprint a:hover,
+  footer.footer .footer__smallprint .nav-tabs .nav-item.open a:hover {
     color: #55595c;
     background-color: #fff;
     border-color: #ddd #ddd transparent; }
@@ -3645,15 +3687,33 @@ tbody.collapse.in {
   .nav-pills .nav-item + .nav-item {
     margin-left: 0.2rem; }
 /* line 116, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_nav.scss */
-.nav-pills .nav-link {
+.nav-pills .nav-link, .nav-pills footer.footer .footer__links a, footer.footer .footer__links .nav-pills a, .nav-pills footer.footer .footer__social a, footer.footer .footer__social .nav-pills a, .nav-pills footer.footer .footer__smallprint a, footer.footer .footer__smallprint .nav-pills a {
   display: block;
   padding: 0.5em 1em;
   border-radius: 0.25rem; }
 /* line 37, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-.nav-pills .nav-link.active, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:hover,
+.nav-pills .nav-link.active, .nav-pills footer.footer .footer__links a.active, footer.footer .footer__links .nav-pills a.active, .nav-pills footer.footer .footer__social a.active, footer.footer .footer__social .nav-pills a.active, .nav-pills footer.footer .footer__smallprint a.active, footer.footer .footer__smallprint .nav-pills a.active, .nav-pills .nav-link.active:focus, .nav-pills footer.footer .footer__links a.active:focus, footer.footer .footer__links .nav-pills a.active:focus, .nav-pills footer.footer .footer__social a.active:focus, footer.footer .footer__social .nav-pills a.active:focus, .nav-pills footer.footer .footer__smallprint a.active:focus, footer.footer .footer__smallprint .nav-pills a.active:focus, .nav-pills .nav-link.active:hover, .nav-pills footer.footer .footer__links a.active:hover, footer.footer .footer__links .nav-pills a.active:hover, .nav-pills footer.footer .footer__social a.active:hover, footer.footer .footer__social .nav-pills a.active:hover, .nav-pills footer.footer .footer__smallprint a.active:hover, footer.footer .footer__smallprint .nav-pills a.active:hover,
 .nav-pills .nav-item.open .nav-link,
+.nav-pills .nav-item.open footer.footer .footer__links a,
+footer.footer .footer__links .nav-pills .nav-item.open a,
+.nav-pills .nav-item.open footer.footer .footer__social a,
+footer.footer .footer__social .nav-pills .nav-item.open a,
+.nav-pills .nav-item.open footer.footer .footer__smallprint a,
+footer.footer .footer__smallprint .nav-pills .nav-item.open a,
 .nav-pills .nav-item.open .nav-link:focus,
-.nav-pills .nav-item.open .nav-link:hover {
+.nav-pills .nav-item.open footer.footer .footer__links a:focus,
+footer.footer .footer__links .nav-pills .nav-item.open a:focus,
+.nav-pills .nav-item.open footer.footer .footer__social a:focus,
+footer.footer .footer__social .nav-pills .nav-item.open a:focus,
+.nav-pills .nav-item.open footer.footer .footer__smallprint a:focus,
+footer.footer .footer__smallprint .nav-pills .nav-item.open a:focus,
+.nav-pills .nav-item.open .nav-link:hover,
+.nav-pills .nav-item.open footer.footer .footer__links a:hover,
+footer.footer .footer__links .nav-pills .nav-item.open a:hover,
+.nav-pills .nav-item.open footer.footer .footer__social a:hover,
+footer.footer .footer__social .nav-pills .nav-item.open a:hover,
+.nav-pills .nav-item.open footer.footer .footer__smallprint a:hover,
+footer.footer .footer__smallprint .nav-pills .nav-item.open a:hover {
   color: #fff;
   cursor: default;
   background-color: #ED1C24; }
@@ -3897,12 +3957,12 @@ tbody.collapse.in {
 .navbar-nav .nav-item {
   float: left; }
 /* line 176, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-nav .nav-link {
+.navbar-nav .nav-link, .navbar-nav footer.footer .footer__links a, footer.footer .footer__links .navbar-nav a, .navbar-nav footer.footer .footer__social a, footer.footer .footer__social .navbar-nav a, .navbar-nav footer.footer .footer__smallprint a, footer.footer .footer__smallprint .navbar-nav a {
   display: block;
   padding-top: .425rem;
   padding-bottom: .425rem; }
   /* line 181, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-nav .nav-link + .nav-link {
+  .navbar-nav .nav-link + .nav-link, .navbar-nav footer.footer .footer__links a + .nav-link, footer.footer .footer__links .navbar-nav a + .nav-link, .navbar-nav footer.footer .footer__social a + .nav-link, footer.footer .footer__social .navbar-nav a + .nav-link, .navbar-nav footer.footer .footer__smallprint a + .nav-link, footer.footer .footer__smallprint .navbar-nav a + .nav-link, .navbar-nav footer.footer .footer__links .nav-link + a, footer.footer .footer__links .navbar-nav .nav-link + a, .navbar-nav footer.footer .footer__links a + a, footer.footer .footer__links .navbar-nav a + a, footer.footer .footer__social .navbar-nav .footer__links a + a, footer.footer .footer__smallprint .navbar-nav .footer__links a + a, .navbar-nav footer.footer .footer__social .nav-link + a, footer.footer .footer__social .navbar-nav .nav-link + a, footer.footer .footer__links .navbar-nav .footer__social a + a, .navbar-nav footer.footer .footer__social a + a, footer.footer .footer__social .navbar-nav a + a, footer.footer .footer__smallprint .navbar-nav .footer__social a + a, .navbar-nav footer.footer .footer__smallprint .nav-link + a, footer.footer .footer__smallprint .navbar-nav .nav-link + a, footer.footer .footer__links .navbar-nav .footer__smallprint a + a, footer.footer .footer__social .navbar-nav .footer__smallprint a + a, .navbar-nav footer.footer .footer__smallprint a + a, footer.footer .footer__smallprint .navbar-nav a + a {
     margin-left: 1rem; }
 /* line 186, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav .nav-item + .nav-item {
@@ -3918,22 +3978,76 @@ tbody.collapse.in {
   .navbar-light .navbar-toggler:hover {
     color: #ED1C24; }
 /* line 203, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav footer.footer .footer__links a, footer.footer .footer__links .navbar-light .navbar-nav a, .navbar-light .navbar-nav footer.footer .footer__social a, footer.footer .footer__social .navbar-light .navbar-nav a, .navbar-light .navbar-nav footer.footer .footer__smallprint a, footer.footer .footer__smallprint .navbar-light .navbar-nav a {
   color: black; }
   /* line 21, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav footer.footer .footer__links a:focus, footer.footer .footer__links .navbar-light .navbar-nav a:focus, .navbar-light .navbar-nav footer.footer .footer__social a:focus, footer.footer .footer__social .navbar-light .navbar-nav a:focus, .navbar-light .navbar-nav footer.footer .footer__smallprint a:focus, footer.footer .footer__smallprint .navbar-light .navbar-nav a:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav footer.footer .footer__links a:hover, footer.footer .footer__links .navbar-light .navbar-nav a:hover, .navbar-light .navbar-nav footer.footer .footer__social a:hover, footer.footer .footer__social .navbar-light .navbar-nav a:hover, .navbar-light .navbar-nav footer.footer .footer__smallprint a:hover, footer.footer .footer__smallprint .navbar-light .navbar-nav a:hover {
     color: rgba(0, 0, 0, 0.7); }
 /* line 37, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-.navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav .open > .nav-link:hover,
+.navbar-light .navbar-nav .open > .nav-link, .navbar-light .navbar-nav footer.footer .footer__links .open > a, footer.footer .footer__links .navbar-light .navbar-nav .open > a, .navbar-light .navbar-nav footer.footer .footer__social .open > a, footer.footer .footer__social .navbar-light .navbar-nav .open > a, .navbar-light .navbar-nav footer.footer .footer__smallprint .open > a, footer.footer .footer__smallprint .navbar-light .navbar-nav .open > a, .navbar-light .navbar-nav .open > .nav-link:focus, .navbar-light .navbar-nav footer.footer .footer__links .open > a:focus, footer.footer .footer__links .navbar-light .navbar-nav .open > a:focus, .navbar-light .navbar-nav footer.footer .footer__social .open > a:focus, footer.footer .footer__social .navbar-light .navbar-nav .open > a:focus, .navbar-light .navbar-nav footer.footer .footer__smallprint .open > a:focus, footer.footer .footer__smallprint .navbar-light .navbar-nav .open > a:focus, .navbar-light .navbar-nav .open > .nav-link:hover, .navbar-light .navbar-nav footer.footer .footer__links .open > a:hover, footer.footer .footer__links .navbar-light .navbar-nav .open > a:hover, .navbar-light .navbar-nav footer.footer .footer__social .open > a:hover, footer.footer .footer__social .navbar-light .navbar-nav .open > a:hover, .navbar-light .navbar-nav footer.footer .footer__smallprint .open > a:hover, footer.footer .footer__smallprint .navbar-light .navbar-nav .open > a:hover,
 .navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav footer.footer .footer__links .active > a,
+footer.footer .footer__links .navbar-light .navbar-nav .active > a,
+.navbar-light .navbar-nav footer.footer .footer__social .active > a,
+footer.footer .footer__social .navbar-light .navbar-nav .active > a,
+.navbar-light .navbar-nav footer.footer .footer__smallprint .active > a,
+footer.footer .footer__smallprint .navbar-light .navbar-nav .active > a,
 .navbar-light .navbar-nav .active > .nav-link:focus,
+.navbar-light .navbar-nav footer.footer .footer__links .active > a:focus,
+footer.footer .footer__links .navbar-light .navbar-nav .active > a:focus,
+.navbar-light .navbar-nav footer.footer .footer__social .active > a:focus,
+footer.footer .footer__social .navbar-light .navbar-nav .active > a:focus,
+.navbar-light .navbar-nav footer.footer .footer__smallprint .active > a:focus,
+footer.footer .footer__smallprint .navbar-light .navbar-nav .active > a:focus,
 .navbar-light .navbar-nav .active > .nav-link:hover,
+.navbar-light .navbar-nav footer.footer .footer__links .active > a:hover,
+footer.footer .footer__links .navbar-light .navbar-nav .active > a:hover,
+.navbar-light .navbar-nav footer.footer .footer__social .active > a:hover,
+footer.footer .footer__social .navbar-light .navbar-nav .active > a:hover,
+.navbar-light .navbar-nav footer.footer .footer__smallprint .active > a:hover,
+footer.footer .footer__smallprint .navbar-light .navbar-nav .active > a:hover,
 .navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav footer.footer .footer__links a.open,
+footer.footer .footer__links .navbar-light .navbar-nav a.open,
+.navbar-light .navbar-nav footer.footer .footer__social a.open,
+footer.footer .footer__social .navbar-light .navbar-nav a.open,
+.navbar-light .navbar-nav footer.footer .footer__smallprint a.open,
+footer.footer .footer__smallprint .navbar-light .navbar-nav a.open,
 .navbar-light .navbar-nav .nav-link.open:focus,
+.navbar-light .navbar-nav footer.footer .footer__links a.open:focus,
+footer.footer .footer__links .navbar-light .navbar-nav a.open:focus,
+.navbar-light .navbar-nav footer.footer .footer__social a.open:focus,
+footer.footer .footer__social .navbar-light .navbar-nav a.open:focus,
+.navbar-light .navbar-nav footer.footer .footer__smallprint a.open:focus,
+footer.footer .footer__smallprint .navbar-light .navbar-nav a.open:focus,
 .navbar-light .navbar-nav .nav-link.open:hover,
+.navbar-light .navbar-nav footer.footer .footer__links a.open:hover,
+footer.footer .footer__links .navbar-light .navbar-nav a.open:hover,
+.navbar-light .navbar-nav footer.footer .footer__social a.open:hover,
+footer.footer .footer__social .navbar-light .navbar-nav a.open:hover,
+.navbar-light .navbar-nav footer.footer .footer__smallprint a.open:hover,
+footer.footer .footer__smallprint .navbar-light .navbar-nav a.open:hover,
 .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav footer.footer .footer__links a.active,
+footer.footer .footer__links .navbar-light .navbar-nav a.active,
+.navbar-light .navbar-nav footer.footer .footer__social a.active,
+footer.footer .footer__social .navbar-light .navbar-nav a.active,
+.navbar-light .navbar-nav footer.footer .footer__smallprint a.active,
+footer.footer .footer__smallprint .navbar-light .navbar-nav a.active,
 .navbar-light .navbar-nav .nav-link.active:focus,
-.navbar-light .navbar-nav .nav-link.active:hover {
+.navbar-light .navbar-nav footer.footer .footer__links a.active:focus,
+footer.footer .footer__links .navbar-light .navbar-nav a.active:focus,
+.navbar-light .navbar-nav footer.footer .footer__social a.active:focus,
+footer.footer .footer__social .navbar-light .navbar-nav a.active:focus,
+.navbar-light .navbar-nav footer.footer .footer__smallprint a.active:focus,
+footer.footer .footer__smallprint .navbar-light .navbar-nav a.active:focus,
+.navbar-light .navbar-nav .nav-link.active:hover,
+.navbar-light .navbar-nav footer.footer .footer__links a.active:hover,
+footer.footer .footer__links .navbar-light .navbar-nav a.active:hover,
+.navbar-light .navbar-nav footer.footer .footer__social a.active:hover,
+footer.footer .footer__social .navbar-light .navbar-nav a.active:hover,
+.navbar-light .navbar-nav footer.footer .footer__smallprint a.active:hover,
+footer.footer .footer__smallprint .navbar-light .navbar-nav a.active:hover {
   color: #ED1C24; }
 /* line 221, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-light .navbar-toggler {
@@ -3953,22 +4067,76 @@ tbody.collapse.in {
   .navbar-dark .navbar-toggler:hover {
     color: white; }
 /* line 243, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav footer.footer .footer__links a, footer.footer .footer__links .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav footer.footer .footer__social a, footer.footer .footer__social .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav footer.footer .footer__smallprint a, footer.footer .footer__smallprint .navbar-dark .navbar-nav a {
   color: rgba(255, 255, 255, 0.5); }
   /* line 21, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav footer.footer .footer__links a:focus, footer.footer .footer__links .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav footer.footer .footer__social a:focus, footer.footer .footer__social .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav footer.footer .footer__smallprint a:focus, footer.footer .footer__smallprint .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav footer.footer .footer__links a:hover, footer.footer .footer__links .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav footer.footer .footer__social a:hover, footer.footer .footer__social .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav footer.footer .footer__smallprint a:hover, footer.footer .footer__smallprint .navbar-dark .navbar-nav a:hover {
     color: rgba(255, 255, 255, 0.75); }
 /* line 37, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_hover.scss */
-.navbar-dark .navbar-nav .open > .nav-link, .navbar-dark .navbar-nav .open > .nav-link:focus, .navbar-dark .navbar-nav .open > .nav-link:hover,
+.navbar-dark .navbar-nav .open > .nav-link, .navbar-dark .navbar-nav footer.footer .footer__links .open > a, footer.footer .footer__links .navbar-dark .navbar-nav .open > a, .navbar-dark .navbar-nav footer.footer .footer__social .open > a, footer.footer .footer__social .navbar-dark .navbar-nav .open > a, .navbar-dark .navbar-nav footer.footer .footer__smallprint .open > a, footer.footer .footer__smallprint .navbar-dark .navbar-nav .open > a, .navbar-dark .navbar-nav .open > .nav-link:focus, .navbar-dark .navbar-nav footer.footer .footer__links .open > a:focus, footer.footer .footer__links .navbar-dark .navbar-nav .open > a:focus, .navbar-dark .navbar-nav footer.footer .footer__social .open > a:focus, footer.footer .footer__social .navbar-dark .navbar-nav .open > a:focus, .navbar-dark .navbar-nav footer.footer .footer__smallprint .open > a:focus, footer.footer .footer__smallprint .navbar-dark .navbar-nav .open > a:focus, .navbar-dark .navbar-nav .open > .nav-link:hover, .navbar-dark .navbar-nav footer.footer .footer__links .open > a:hover, footer.footer .footer__links .navbar-dark .navbar-nav .open > a:hover, .navbar-dark .navbar-nav footer.footer .footer__social .open > a:hover, footer.footer .footer__social .navbar-dark .navbar-nav .open > a:hover, .navbar-dark .navbar-nav footer.footer .footer__smallprint .open > a:hover, footer.footer .footer__smallprint .navbar-dark .navbar-nav .open > a:hover,
 .navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav footer.footer .footer__links .active > a,
+footer.footer .footer__links .navbar-dark .navbar-nav .active > a,
+.navbar-dark .navbar-nav footer.footer .footer__social .active > a,
+footer.footer .footer__social .navbar-dark .navbar-nav .active > a,
+.navbar-dark .navbar-nav footer.footer .footer__smallprint .active > a,
+footer.footer .footer__smallprint .navbar-dark .navbar-nav .active > a,
 .navbar-dark .navbar-nav .active > .nav-link:focus,
+.navbar-dark .navbar-nav footer.footer .footer__links .active > a:focus,
+footer.footer .footer__links .navbar-dark .navbar-nav .active > a:focus,
+.navbar-dark .navbar-nav footer.footer .footer__social .active > a:focus,
+footer.footer .footer__social .navbar-dark .navbar-nav .active > a:focus,
+.navbar-dark .navbar-nav footer.footer .footer__smallprint .active > a:focus,
+footer.footer .footer__smallprint .navbar-dark .navbar-nav .active > a:focus,
 .navbar-dark .navbar-nav .active > .nav-link:hover,
+.navbar-dark .navbar-nav footer.footer .footer__links .active > a:hover,
+footer.footer .footer__links .navbar-dark .navbar-nav .active > a:hover,
+.navbar-dark .navbar-nav footer.footer .footer__social .active > a:hover,
+footer.footer .footer__social .navbar-dark .navbar-nav .active > a:hover,
+.navbar-dark .navbar-nav footer.footer .footer__smallprint .active > a:hover,
+footer.footer .footer__smallprint .navbar-dark .navbar-nav .active > a:hover,
 .navbar-dark .navbar-nav .nav-link.open,
+.navbar-dark .navbar-nav footer.footer .footer__links a.open,
+footer.footer .footer__links .navbar-dark .navbar-nav a.open,
+.navbar-dark .navbar-nav footer.footer .footer__social a.open,
+footer.footer .footer__social .navbar-dark .navbar-nav a.open,
+.navbar-dark .navbar-nav footer.footer .footer__smallprint a.open,
+footer.footer .footer__smallprint .navbar-dark .navbar-nav a.open,
 .navbar-dark .navbar-nav .nav-link.open:focus,
+.navbar-dark .navbar-nav footer.footer .footer__links a.open:focus,
+footer.footer .footer__links .navbar-dark .navbar-nav a.open:focus,
+.navbar-dark .navbar-nav footer.footer .footer__social a.open:focus,
+footer.footer .footer__social .navbar-dark .navbar-nav a.open:focus,
+.navbar-dark .navbar-nav footer.footer .footer__smallprint a.open:focus,
+footer.footer .footer__smallprint .navbar-dark .navbar-nav a.open:focus,
 .navbar-dark .navbar-nav .nav-link.open:hover,
+.navbar-dark .navbar-nav footer.footer .footer__links a.open:hover,
+footer.footer .footer__links .navbar-dark .navbar-nav a.open:hover,
+.navbar-dark .navbar-nav footer.footer .footer__social a.open:hover,
+footer.footer .footer__social .navbar-dark .navbar-nav a.open:hover,
+.navbar-dark .navbar-nav footer.footer .footer__smallprint a.open:hover,
+footer.footer .footer__smallprint .navbar-dark .navbar-nav a.open:hover,
 .navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav footer.footer .footer__links a.active,
+footer.footer .footer__links .navbar-dark .navbar-nav a.active,
+.navbar-dark .navbar-nav footer.footer .footer__social a.active,
+footer.footer .footer__social .navbar-dark .navbar-nav a.active,
+.navbar-dark .navbar-nav footer.footer .footer__smallprint a.active,
+footer.footer .footer__smallprint .navbar-dark .navbar-nav a.active,
 .navbar-dark .navbar-nav .nav-link.active:focus,
-.navbar-dark .navbar-nav .nav-link.active:hover {
+.navbar-dark .navbar-nav footer.footer .footer__links a.active:focus,
+footer.footer .footer__links .navbar-dark .navbar-nav a.active:focus,
+.navbar-dark .navbar-nav footer.footer .footer__social a.active:focus,
+footer.footer .footer__social .navbar-dark .navbar-nav a.active:focus,
+.navbar-dark .navbar-nav footer.footer .footer__smallprint a.active:focus,
+footer.footer .footer__smallprint .navbar-dark .navbar-nav a.active:focus,
+.navbar-dark .navbar-nav .nav-link.active:hover,
+.navbar-dark .navbar-nav footer.footer .footer__links a.active:hover,
+footer.footer .footer__links .navbar-dark .navbar-nav a.active:hover,
+.navbar-dark .navbar-nav footer.footer .footer__social a.active:hover,
+footer.footer .footer__social .navbar-dark .navbar-nav a.active:hover,
+.navbar-dark .navbar-nav footer.footer .footer__smallprint a.active:hover,
+footer.footer .footer__smallprint .navbar-dark .navbar-nav a.active:hover {
   color: white; }
 /* line 261, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-dark .navbar-toggler {
@@ -5692,7 +5860,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   border-top-left-radius: 0.25rem; }
 
 /* line 28, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/utilities/_borders.scss */
-.rounded-circle {
+.rounded-circle, footer.footer .footer__social a {
   border-radius: 50%; }
 
 /* line 2, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
@@ -6077,7 +6245,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   text-align: right !important; }
 
 /* line 17, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/utilities/_text.scss */
-.text-xs-center {
+.text-xs-center, footer.footer .footer__logos {
   text-align: center !important; }
 
 @media (min-width: 576px) {
@@ -6094,7 +6262,7 @@ a.bg-inverse:focus, a.bg-inverse:hover {
     text-align: center !important; } }
 @media (min-width: 768px) {
   /* line 15, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/utilities/_text.scss */
-  .text-md-left {
+  .text-md-left, footer.footer .footer__logos {
     text-align: left !important; }
 
   /* line 16, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/utilities/_text.scss */
@@ -6316,28 +6484,75 @@ nav.navbar {
     color: red; }
 
 /* line 1, components/_footer.scss */
-footer {
-  padding-top: 1rem;
-  background-color: #ED1C24;
-  color: white; }
-  /* line 6, components/_footer.scss */
-  footer a, footer a:hover {
+footer.footer {
+  color: white;
+  background-color: #333333; }
+  /* line 5, components/_footer.scss */
+  footer.footer:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 5rem;
+    background-image: linear-gradient(to bottom left, white, white 49%, #333333 49%, #333333); }
+  /* line 13, components/_footer.scss */
+  footer.footer a, footer.footer a:hover {
     color: white; }
-  /* line 10, components/_footer.scss */
-  footer #supporters {
-    padding-top: 2rem; }
-    /* line 12, components/_footer.scss */
-    footer #supporters img {
-      height: 2rem; }
   /* line 17, components/_footer.scss */
-  footer #good-gym img {
+  footer.footer .footer__logos {
+    margin-right: -15px;
+    margin-left: -15px; }
+    /* line 2, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+    footer.footer .footer__logos::after {
+      content: "";
+      display: table;
+      clear: both; }
+    @media (min-width: 576px) {
+      /* line 17, components/_footer.scss */
+      footer.footer .footer__logos {
+        margin-right: -15px;
+        margin-left: -15px; } }
+    @media (min-width: 768px) {
+      /* line 17, components/_footer.scss */
+      footer.footer .footer__logos {
+        margin-right: -15px;
+        margin-left: -15px; } }
+    @media (min-width: 992px) {
+      /* line 17, components/_footer.scss */
+      footer.footer .footer__logos {
+        margin-right: -15px;
+        margin-left: -15px; } }
+    @media (min-width: 1200px) {
+      /* line 17, components/_footer.scss */
+      footer.footer .footer__logos {
+        margin-right: -15px;
+        margin-left: -15px; } }
+    /* line 22, components/_footer.scss */
+    footer.footer .footer__logos .footer__goodgym {
+      margin-bottom: 1rem; }
+    /* line 31, components/_footer.scss */
+    footer.footer .footer__logos .footer__supporters img.footer__btlogo {
+      width: 30%; }
+    /* line 34, components/_footer.scss */
+    footer.footer .footer__logos .footer__supporters img.footer__nblogo {
+      width: 60%; }
+  /* line 40, components/_footer.scss */
+  footer.footer .footer__links, footer.footer .footer__social, footer.footer .footer__smallprint {
+    text-align: center;
     margin-bottom: 1rem; }
-
-/* line 22, components/_footer.scss */
-.footer-slash {
-  width: 100%;
-  height: 5rem;
-  background-image: linear-gradient(to bottom right, white, white 49%, #ED1C24 49%, #ED1C24); }
+    /* line 45, components/_footer.scss */
+    footer.footer .footer__links a, footer.footer .footer__social a, footer.footer .footer__smallprint a {
+      margin-right: 2rem; }
+  /* line 54, components/_footer.scss */
+  footer.footer .footer__social a {
+    color: #333333;
+    width: 2.5rem;
+    line-height: 2.5rem;
+    background-color: #FFFFFF;
+    display: inline-block;
+    margin-right: 2rem; }
+  /* line 66, components/_footer.scss */
+  footer.footer .footer__smallprint {
+    font-size: 0.8rem; }
 
 /* line 1, components/_home.scss */
 .header {
