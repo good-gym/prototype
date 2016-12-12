@@ -1,16 +1,28 @@
-.footer-slash
-%footer
+%footer.footer
   .container
-    .row
-      .col-md-3#supporters
-        %h5 Supported by:
-        %p
-          = link_to image_tag('bt_logo.png'), 'http://www.btplc.com/'
-          = link_to image_tag('nb_logo.png'), 'http://www.newbalance.co.uk/'
-      .col-md-3.offset-md-6#good-gym
+    .footer__logos
+      .footer__goodgym
         = link_to image_tag('goodgym_white.png', height: '100'), '/'
-        %div
-          %p
-            = link_to('Reg. Charity 1160988', charity_path)
-            %br
-            = link_to("Contact us", contact_path)
+      .footer__supporters
+        %p Supported by
+        %p
+          = link_to image_tag('bt_logo.png', class: "footer__btlogo"), 'http://www.btplc.com/'
+          = link_to image_tag('nb_logo.png', class: "footer__nblogo"), 'http://www.newbalance.co.uk/'
+    .footer__links
+      = link_to("About", about_path)
+      = link_to("FAQs", faqs_path)
+      = link_to("Jobs", jobs_path)
+      = link_to("Contact us", contact_path)
+    .footer__social
+      = link_to("") do
+        %i.fa.fa-facebook
+      = link_to("") do
+        %i.fa.fa-twitter
+      = link_to("") do
+        %i.fa.fa-instagram
+      = link_to("") do
+        %i.fa.fa-youtube
+    .footer__smallprint
+      %a Somerset House, Strand, London, WC2R 1LA
+      = link_to("Terms of Service", "")
+      = link_to("Privacy Policy", "")

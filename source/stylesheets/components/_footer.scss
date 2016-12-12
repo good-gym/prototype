@@ -1,26 +1,71 @@
-footer {
-  padding-top: 1rem;
-  background-color: $brand-primary;
+footer.footer {
   color: white;
+  background-color: $brand-secondary;
+
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 5rem;
+    background-image: linear-gradient(to bottom left, white, white 49%, $brand-secondary 49%, $brand-secondary);
+  }
 
   a, a:hover {
     color: white;
   }
 
-  #supporters {
-    padding-top: 2rem;
-    img {
-      height: 2rem;
-    }
-  }
-  #good-gym {
-    img {
+  .footer__logos {
+    @include make-row();
+    @extend .text-xs-center;
+    @extend .text-md-left;
+
+    .footer__goodgym {
+      @extend .col-md-6;
+      @extend .col-sm-12;
       margin-bottom: 1rem;
     }
+    .footer__supporters {
+      @extend .col-md-6;
+      @extend .col-sm-12;
+
+      img.footer__btlogo {
+        width: 30%;
+      }
+      img.footer__nblogo {
+        width: 60%;
+      }
+    }
   }
-}
-.footer-slash {
-  width: 100%;
-  height: 5rem;
-  background-image: linear-gradient(to bottom right, white, white 49%, $brand-primary 49%, $brand-primary);
+
+  .footer__links {
+    @extend .nav;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    a {
+      @extend .nav-link;
+      margin-right: 2rem;
+    }
+  }
+
+  .footer__social {
+    @extend .footer__links;
+
+    a {
+      @extend .nav-link;
+      @extend .rounded-circle;
+      color: $brand-secondary;
+      width: 2.5rem;
+      line-height: 2.5rem;
+      background-color: #FFFFFF;
+      display: inline-block;
+      margin-right: 2rem;
+    }
+  }
+
+  .footer__smallprint {
+    @extend .footer__links;
+
+    font-size: 0.8rem;
+  }
 }

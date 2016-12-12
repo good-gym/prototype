@@ -5,6 +5,18 @@ module Helpers
     "0203 432 3920"
   end
 
+  def about_path
+    "/about"
+  end
+
+  def jobs_path
+    "/jobs"
+  end
+
+  def faqs_path
+    "/faqs"
+  end
+
   def contact_path
     "/about#contact"
   end
@@ -23,7 +35,7 @@ module Helpers
     klass = "telephone-icon" if icon
     link_to number, "tel:#{number}", class: klass
   end
-  
+
   def my_data(name)
     @data ||= {}
     @data[name] ||= YAML.load ERB.new(File.read("data/#{name}.yml")).result
