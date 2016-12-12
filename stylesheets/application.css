@@ -6493,7 +6493,7 @@ footer.footer {
     content: "";
     width: 100%;
     height: 5rem;
-    background-image: linear-gradient(to bottom left, white, white 49%, #333333 49%, #333333); }
+    background-image: linear-gradient(to bottom left, white, white 50%, #333333 51%, #333333); }
   /* line 13, components/_footer.scss */
   footer.footer a, footer.footer a:hover {
     color: white; }
