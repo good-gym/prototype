@@ -1,0 +1,25 @@
+.press {
+  @extend .container;
+
+  .press__press-items {
+    @include make-row();
+
+    .press__press-item {
+      @extend .col-md-4;
+      @extend .blockquote;
+
+      border: none;
+
+      p {
+        padding-left: 1.5em;
+
+        &:before {
+          font-family: "lft_etica";
+          content: "ll";
+          float: left;
+          margin-left: -1em;
+        }
+      }
+    }
+  }
+}
