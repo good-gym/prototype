@@ -844,29 +844,29 @@ pre {
       margin-left: -15px; } }
 
 /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .home-map .home-map__stats, .col-md-5, .col-md-6, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+.col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .col-md-5, .col-md-6, .home-map .home-map__stats, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
   @media (min-width: 576px) {
     /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .home-map .home-map__stats, .col-md-5, .col-md-6, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .col-md-5, .col-md-6, .home-map .home-map__stats, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 768px) {
     /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .home-map .home-map__stats, .col-md-5, .col-md-6, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .col-md-5, .col-md-6, .home-map .home-map__stats, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 992px) {
     /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .home-map .home-map__stats, .col-md-5, .col-md-6, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .col-md-5, .col-md-6, .home-map .home-map__stats, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 1200px) {
     /* line 8, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .home-map .home-map__stats, .col-md-5, .col-md-6, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .col-md, .col-md-1, .col-md-2, .col-md-3, .about-goodgym .about-goodgym__logo, .col-md-4, .press .press__press-items .press__press-item, .col-md-5, .col-md-6, .home-map .home-map__stats, .col-md-7, .about-goodgym .about-goodgym__blurb, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .home-splash .home-splash__reasons .home-splash__reason-box, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -1307,7 +1307,7 @@ pre {
     width: 25%; }
 
   /* line 46, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-4, .press .press__press-items .press__press-item, .home-map .home-map__stats {
+  .col-md-4, .press .press__press-items .press__press-item {
     float: left;
     width: 33.33333%; }
 
@@ -1317,7 +1317,7 @@ pre {
     width: 41.66667%; }
 
   /* line 46, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-6, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters {
+  .col-md-6, footer.footer .footer__logos .footer__goodgym, footer.footer .footer__logos .footer__supporters, .home-map .home-map__stats {
     float: left;
     width: 50%; }
 
@@ -1480,7 +1480,7 @@ pre {
     margin-left: 41.66667%; }
 
   /* line 62, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .offset-md-6 {
+  .offset-md-6, .home-map .home-map__stats {
     margin-left: 50%; }
 
   /* line 62, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -1488,7 +1488,7 @@ pre {
     margin-left: 58.33333%; }
 
   /* line 62, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .offset-md-8, .home-map .home-map__stats {
+  .offset-md-8 {
     margin-left: 66.66667%; }
 
   /* line 62, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -1519,7 +1519,7 @@ pre {
     width: 25%; }
 
   /* line 46, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason {
+  .col-lg-4, .home-splash .home-splash__reasons .home-splash__reason, .home-map .home-map__stats {
     float: left;
     width: 33.33333%; }
 
@@ -1700,7 +1700,7 @@ pre {
     margin-left: 58.33333%; }
 
   /* line 62, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .offset-lg-8 {
+  .offset-lg-8, .home-map .home-map__stats {
     margin-left: 66.66667%; }
 
   /* line 62, ../../../../../../../../../../Users/metade/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/bootstrap-4.0.0.alpha5/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -6734,24 +6734,39 @@ footer.footer {
     margin: 0 10% 20%; }
   /* line 200, components/_home.scss */
   .home-map .home-map__stats {
-    padding: 3rem;
-    text-align: left; }
-    /* line 209, components/_home.scss */
+    text-align: left;
+    padding: 3rem 1.5rem 1.5rem; }
+    @media (min-width: 768px) {
+      /* line 200, components/_home.scss */
+      .home-map .home-map__stats {
+        padding: 3rem; } }
+    /* line 213, components/_home.scss */
+    .home-map .home-map__stats h3 {
+      font-size: 1.2rem; }
+    /* line 217, components/_home.scss */
     .home-map .home-map__stats ul {
       text-align: left;
-      padding-left: 1rem; }
-      /* line 213, components/_home.scss */
+      padding-left: 1rem;
+      margin: 0; }
+      /* line 222, components/_home.scss */
       .home-map .home-map__stats ul li span {
-        font-family: "lft_etica"; }
-  /* line 220, components/_home.scss */
+        font-size: 1.2rem;
+        font-family: "lft_etica";
+        margin-right: 1rem; }
+  /* line 231, components/_home.scss */
   .home-map img {
     width: 50%;
-    margin-bottom: -40%;
-    margin-left: 15%; }
+    margin-bottom: -20%;
+    margin-left: 30%; }
+    @media (min-width: 768px) {
+      /* line 231, components/_home.scss */
+      .home-map img {
+        margin-bottom: -30%;
+        margin-left: 15%; } }
 
-/* line 235, components/_home.scss */
+/* line 251, components/_home.scss */
 .about-goodgym .about-goodgym__logo img {
   width: 100%; }
-/* line 243, components/_home.scss */
+/* line 259, components/_home.scss */
 .about-goodgym .about-goodgym__blurb p {
   text-align: justify; }
