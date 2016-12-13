@@ -6604,26 +6604,37 @@ footer.footer {
   .home-splash .home-find-your-reason {
     background: white;
     height: 5rem;
+    margin-top: -5rem;
     width: 100%;
     margin-bottom: 3rem; }
-  /* line 44, components/_home.scss */
+    @media (max-width: 991px) {
+      /* line 37, components/_home.scss */
+      .home-splash .home-find-your-reason {
+        height: 10rem;
+        margin-top: -10rem; } }
+  /* line 50, components/_home.scss */
   .home-splash .home-splash__reasons {
     position: relative;
     color: black; }
-    /* line 48, components/_home.scss */
+    /* line 54, components/_home.scss */
     .home-splash .home-splash__reasons:before {
       position: absolute;
       width: 100%;
       bottom: 0;
-      margin-top: -5rem;
       left: 0;
       content: "";
-      height: 10rem;
-      background-image: linear-gradient(to bottom right, transparent, transparent 50%, white 51%, white); }
-    /* line 59, components/_home.scss */
+      height: 5rem;
+      margin-bottom: 5rem;
+      background-image: linear-gradient(to bottom right, transparent, transparent 50%, white 49%, white); }
+      @media (max-width: 991px) {
+        /* line 54, components/_home.scss */
+        .home-splash .home-splash__reasons:before {
+          height: 10rem;
+          margin-bottom: 10rem; } }
+    /* line 70, components/_home.scss */
     .home-splash .home-splash__reasons .home-splash__reason {
       margin-bottom: 1rem; }
-    /* line 64, components/_home.scss */
+    /* line 75, components/_home.scss */
     .home-splash .home-splash__reasons .home-splash__reason-box {
       background: white;
       border-radius: 1rem;
@@ -6632,15 +6643,15 @@ footer.footer {
       padding: 0;
       display: inline-block;
       color: black; }
-      /* line 75, components/_home.scss */
+      /* line 86, components/_home.scss */
       .home-splash .home-splash__reasons .home-splash__reason-box p {
         margin: 0.5rem; }
-    /* line 80, components/_home.scss */
+    /* line 91, components/_home.scss */
     .home-splash .home-splash__reasons .home-splash__reason-heading {
       background: #ED1C24;
       width: 100%;
       height: 5em; }
-      /* line 85, components/_home.scss */
+      /* line 96, components/_home.scss */
       .home-splash .home-splash__reasons .home-splash__reason-heading h2 {
         position: relative;
         width: 40%;
@@ -6653,7 +6664,7 @@ footer.footer {
         padding: 1rem 1rem 0rem 1rem;
         line-height: 1.5rem;
         z-index: 1; }
-        /* line 98, components/_home.scss */
+        /* line 109, components/_home.scss */
         .home-splash .home-splash__reasons .home-splash__reason-heading h2:before {
           z-index: -1;
           position: absolute;
@@ -6664,83 +6675,83 @@ footer.footer {
           width: 2rem;
           margin-right: -2rem;
           background-image: linear-gradient(to bottom left, transparent, transparent 50%, #ED1C24 51%, #ED1C24); }
-      /* line 111, components/_home.scss */
+      /* line 122, components/_home.scss */
       .home-splash .home-splash__reasons .home-splash__reason-heading img {
         float: right;
         height: 100%;
         width: 60%;
         object-fit: cover;
         object-position: top; }
-    /* line 122, components/_home.scss */
+    /* line 133, components/_home.scss */
     .home-splash .home-splash__reasons .home-splash__reason--coaches h2:before {
       background-image: linear-gradient(to top left, transparent, transparent 50%, #ED1C24 51%, #ED1C24); }
     @media (min-width: 768px) {
-      /* line 129, components/_home.scss */
+      /* line 140, components/_home.scss */
       .home-splash .home-splash__reasons h2 {
         padding-top: 1.75rem; } }
     @media (min-width: 992px) {
-      /* line 134, components/_home.scss */
+      /* line 145, components/_home.scss */
       .home-splash .home-splash__reasons .home-splash__reason-box {
         margin-top: 4rem; }
-      /* line 137, components/_home.scss */
+      /* line 148, components/_home.scss */
       .home-splash .home-splash__reasons .home-splash__reason-heading {
         height: 8em; }
-        /* line 139, components/_home.scss */
+        /* line 150, components/_home.scss */
         .home-splash .home-splash__reasons .home-splash__reason-heading h2 {
           padding-top: 2.5rem; }
-      /* line 144, components/_home.scss */
+      /* line 155, components/_home.scss */
       .home-splash .home-splash__reasons .home-splash__reason--coaches .home-splash__reason-box {
         margin-top: 0rem; }
-      /* line 147, components/_home.scss */
+      /* line 158, components/_home.scss */
       .home-splash .home-splash__reasons .home-splash__reason--coaches .home-splash__reason-heading {
         height: 12em; }
-        /* line 149, components/_home.scss */
+        /* line 160, components/_home.scss */
         .home-splash .home-splash__reasons .home-splash__reason--coaches .home-splash__reason-heading h2 {
           padding-top: 5.0rem; } }
 
-/* line 158, components/_home.scss */
+/* line 169, components/_home.scss */
 .home-good-deeds {
   color: white; }
-  /* line 161, components/_home.scss */
+  /* line 172, components/_home.scss */
   .home-good-deeds img {
     filter: invert(100%);
     width: 8rem; }
-  /* line 167, components/_home.scss */
+  /* line 178, components/_home.scss */
   .home-good-deeds h2 span {
     display: block; }
 
-/* line 174, components/_home.scss */
+/* line 185, components/_home.scss */
 .home-map {
   position: relative;
   color: black;
   text-align: left;
   margin-bottom: 10%; }
-  /* line 181, components/_home.scss */
+  /* line 192, components/_home.scss */
   .home-map .home-map__box {
     background: white;
     border-radius: 1em;
     width: 80%;
     margin: 0 10% 20%; }
-  /* line 189, components/_home.scss */
+  /* line 200, components/_home.scss */
   .home-map .home-map__stats {
     padding: 3rem;
     text-align: left; }
-    /* line 198, components/_home.scss */
+    /* line 209, components/_home.scss */
     .home-map .home-map__stats ul {
       text-align: left;
       padding-left: 1rem; }
-      /* line 202, components/_home.scss */
+      /* line 213, components/_home.scss */
       .home-map .home-map__stats ul li span {
         font-family: "lft_etica"; }
-  /* line 209, components/_home.scss */
+  /* line 220, components/_home.scss */
   .home-map img {
     width: 50%;
     margin-bottom: -40%;
     margin-left: 15%; }
 
-/* line 224, components/_home.scss */
+/* line 235, components/_home.scss */
 .about-goodgym .about-goodgym__logo img {
   width: 100%; }
-/* line 232, components/_home.scss */
+/* line 243, components/_home.scss */
 .about-goodgym .about-goodgym__blurb p {
   text-align: justify; }
