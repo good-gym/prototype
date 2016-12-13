@@ -1,126 +1,21 @@
-.header {
-  max-height: 600px;
-  text-align: center;
-  color: #fff;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    image_url("home-page-splash.jpg");
+.about-goodgym {
+  @extend .container;
+  @extend .mb-1;
 
-  background-attachment: scroll;
-  background-position: center center;
-  background-repeat: none;
-  background-size: cover;
+  .about-goodgym__logo {
+    @extend .col-md-3;
+    @extend .hidden-sm-down;
 
-  box-shadow: 0 2px 2px 0px #000000;
-
-  .intro-text {
-    position: relative;
-    padding: 10% 0 15% 0;
-
-    h1 {
-      font-size: 4rem;
-      margin-bottom: 2rem;
+    img {
+      width: 100%;
     }
+  }
+  .about-goodgym__blurb {
+    @extend .col-md-7;
+    @extend .offset-md-2;
+
     p {
-      font-size: 1.25rem;
-      font-weight: 300;
-
-      @include media-breakpoint-up(lg) {
-        font-size: 1.5rem;
-        padding: 0 20%;
-      }
+      text-align: justify;
     }
   }
-}
-
-.section-title {
-  text-align: center;
-  margin: 4rem 0;
-}
-
-.reasons {
-  @include make-row();
-  text-align: center;
-
-  color: white;
-  .reason {
-    background-size: cover;
-    background-repeat: none;
-    position: relative;
-    float: left;
-    width: 33.33333%;
-    h3 {
-      margin-top: 1rem;
-      height: 6rem;
-    }
-    color: white;
-    &:hover {
-      color: white;
-    }
-    a {
-      padding: 3rem;
-      display: block;
-      color: white;
-      &:hover {
-        color: white;
-        text-decoration: none;
-      }
-    }
-    p {
-      height: 16rem;
-      display: block;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
-      font-weight: bold;
-    }
-    .btn {
-      border-radius: 0;
-      text-transform: uppercase;
-      font-weight: bold;
-      color: $brand-primary;
-      padding: 0.5rem 3rem;
-    }
-  }
-  .group-runs {
-    background:
-      linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
-      image_url("group-run.jpg");
-    background-position: center top;
-    &:hover {
-      background:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        image_url("group-run.jpg");
-      background-position: center top;
-    }
-  }
-
-  .missions {
-    background:
-      linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
-      image_url("missions.jpg");
-    background-position: center top;
-    &:hover {
-      background:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        image_url("missions.jpg");
-      background-position: center top;
-    }
-  }
-  .coaches {
-    background:
-      linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)),
-      image_url("coach.jpg");
-    background-position: center top;
-    &:hover {
-      background:
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        image_url("coach.jpg");
-      background-position: center top;
-    }
-  }
-}
-
-#map {
-  width: 100%;
-  height: 400px;
 }
