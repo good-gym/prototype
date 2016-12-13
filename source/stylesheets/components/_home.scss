@@ -6,6 +6,7 @@
     image_url("home-page-splash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center top;
 
   .home-splash__login {
     @extend .container;
@@ -33,9 +34,27 @@
     }
   }
 
+  .home-find-your-reason {
+    background: white;
+    height: 5rem;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
   .home-splash__reasons {
-    @extend .container;
+    position: relative;
     color: black;
+
+    &:before {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      margin-top: -5rem;
+      left: 0;
+      content: "";
+      height: 10rem;
+      background-image: linear-gradient(to bottom right, transparent, transparent 50%, white 51%, white);
+    }
 
     .home-splash__reason {
       @extend .col-lg-4;
@@ -47,7 +66,7 @@
 
       background: white;
       border-radius: 1rem;
-      background: white;
+      box-shadow: 1px 1px 4px black;
       overflow: hidden;
       padding: 0;
       display: inline-block;

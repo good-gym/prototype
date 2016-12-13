@@ -16,27 +16,30 @@ no_header: true
       Join us and find your reason to run.
 
   .home-splash__reasons
-    .row
-      .home-splash__reason
-        = link_to("/missions", class: "home-splash__reason-box") do
-          .home-splash__reason-heading
-            = image_tag "missions.jpg"
-            %h2 Run Missions
-          %p Run to help older people with one-off tasks
-      .home-splash__reason.home-splash__reason--coaches
-        = link_to("/coaches", class: "home-splash__reason-box") do
-          .home-splash__reason-heading
-            = image_tag "coach.jpg"
-            %h2 Coach Run
-          .home-splash__reason-body
-            %p Run regularly to see an isolated older person
-      .home-splash__reason
-        = link_to("/group-runs", class: "home-splash__reason-box") do
-          .home-splash__reason-heading
-            = image_tag "group-run.jpg"
-            %h2 Group Run
-          .home-splash__reason-body
-            %p Run with a group to help community projects
+    .container
+      .row
+        .home-splash__reason
+          = link_to("/missions", class: "home-splash__reason-box") do
+            .home-splash__reason-heading
+              = image_tag "missions.jpg"
+              %h2 Run Missions
+            %p Run to help older people with one-off tasks
+        .home-splash__reason.home-splash__reason--coaches
+          = link_to("/coaches", class: "home-splash__reason-box") do
+            .home-splash__reason-heading
+              = image_tag "coach.jpg"
+              %h2 Coach Run
+            .home-splash__reason-body
+              %p Run regularly to see an isolated older person
+        .home-splash__reason
+          = link_to("/group-runs", class: "home-splash__reason-box") do
+            .home-splash__reason-heading
+              = image_tag "group-run.jpg"
+              %h2 Group Run
+            .home-splash__reason-body
+              %p Run with a group to help community projects
+
+  .home-find-your-reason
 
   .home-good-deeds
     = image_tag "stats/good-deeds.png"
