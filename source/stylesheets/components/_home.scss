@@ -132,6 +132,22 @@
       }
     }
   }
+
+  .home-splash__good-deeds {
+    color: white;
+
+    img {
+      filter: invert(100%);
+      width: 8rem;
+    }
+    h2 {
+      @extend .strong;
+      span {
+        display: block;
+        @extend .display-4;
+      }
+    }
+  }
 }
 
 .about-goodgym {
