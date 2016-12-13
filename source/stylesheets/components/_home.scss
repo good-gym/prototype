@@ -7,6 +7,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
+  margin-bottom: 3rem;
 
   .home-splash__login {
     @extend .container;
@@ -34,38 +35,38 @@
     }
   }
 
-  .home-find-your-reason {
-    background: white;
-    height: 5rem;
-    margin-top: -5rem;
-    width: 100%;
-    margin-bottom: 3rem;
-
-    @include media-breakpoint-down(md) {
-      height: 10rem;
-      margin-top: -10rem;
-    }
-  }
+  // .home-find-your-reason {
+  //   background: white;
+  //   height: 5rem;
+  //   margin-top: -5rem;
+  //   width: 100%;
+  //   margin-bottom: 3rem;
+  //
+  //   @include media-breakpoint-down(md) {
+  //     height: 10rem;
+  //     margin-top: -10rem;
+  //   }
+  // }
 
   .home-splash__reasons {
     position: relative;
     color: black;
 
-    &:before {
-      position: absolute;
-      width: 100%;
-      bottom: 0;
-      left: 0;
-      content: "";
-      height: 5rem;
-      margin-bottom: 5rem;
-      background-image: linear-gradient(to bottom right, transparent, transparent 50%, white 49%, white);
-
-      @include media-breakpoint-down(md) {
-        height: 10rem;
-        margin-bottom: 10rem;
-      }
-    }
+    // &:before {
+    //   position: absolute;
+    //   width: 100%;
+    //   bottom: 0;
+    //   left: 0;
+    //   content: "";
+    //   height: 5rem;
+    //   margin-bottom: 5rem;
+    //   background-image: linear-gradient(to bottom right, transparent, transparent 50%, white 49%, white);
+    //
+    //   @include media-breakpoint-down(md) {
+    //     height: 10rem;
+    //     margin-bottom: 10rem;
+    //   }
+    // }
 
     .home-splash__reason {
       @extend .col-lg-4;
@@ -94,6 +95,7 @@
       height: 5em;
 
       h2 {
+        @extend .strong;
         position: relative;
         width: 40%;
         height: 100%;
@@ -187,7 +189,6 @@
   position: relative;
   color: black;
   text-align: left;
-  margin-bottom: 10%;
 
   .home-map__box {
     @extend .row;
