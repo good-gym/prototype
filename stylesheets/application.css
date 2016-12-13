@@ -6581,7 +6581,7 @@ footer.footer {
 .home-splash {
   color: white;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/home-page-splash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/home-splash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
