@@ -37,8 +37,14 @@
   .home-find-your-reason {
     background: white;
     height: 5rem;
+    margin-top: -5rem;
     width: 100%;
     margin-bottom: 3rem;
+
+    @include media-breakpoint-down(md) {
+      height: 10rem;
+      margin-top: -10rem;
+    }
   }
 
   .home-splash__reasons {
@@ -49,11 +55,16 @@
       position: absolute;
       width: 100%;
       bottom: 0;
-      margin-top: -5rem;
       left: 0;
       content: "";
-      height: 10rem;
-      background-image: linear-gradient(to bottom right, transparent, transparent 50%, white 51%, white);
+      height: 5rem;
+      margin-bottom: 5rem;
+      background-image: linear-gradient(to bottom right, transparent, transparent 50%, white 49%, white);
+
+      @include media-breakpoint-down(md) {
+        height: 10rem;
+        margin-bottom: 10rem;
+      }
     }
 
     .home-splash__reason {
