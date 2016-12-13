@@ -38,13 +38,28 @@ no_header: true
           .home-splash__reason-body
             %p Run with a group to help community projects
 
-    .home-splash__good-deeds
-      = image_tag "stats/good-deeds.png"
-      %h2
-        %span 123,456
-        Good deeds done
+  .home-good-deeds
+    = image_tag "stats/good-deeds.png"
+    %h2
+      %span 123,456
+      Good deeds done
 
-.home-
+  .home-map
+    = image_tag "home/map-20161212.svg"
+    .home-map__box
+      .home-map__stats
+        %h3 Areas
+        %ul
+          %li
+            %span 26
+            Areas running
+          %li
+            %span 10
+            Starting soon
+          %li
+            %span 28
+            In proposal
+
 
 .about-goodgym
   .row

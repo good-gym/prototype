@@ -1,9 +1,11 @@
 .home-splash {
+  color: white;
+  text-align: center;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     image_url("home-page-splash.jpg");
-  text-align: center;
-  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   .home-splash__login {
     @extend .container;
@@ -132,21 +134,63 @@
       }
     }
   }
+}
 
-  .home-splash__good-deeds {
-    color: white;
+.home-good-deeds {
+  color: white;
 
-    img {
-      filter: invert(100%);
-      width: 8rem;
+  img {
+    filter: invert(100%);
+    width: 8rem;
+  }
+  h2 {
+    @extend .strong;
+    span {
+      display: block;
+      @extend .display-4;
     }
-    h2 {
-      @extend .strong;
-      span {
-        display: block;
-        @extend .display-4;
+  }
+}
+
+.home-map {
+  @extend .container;
+  position: relative;
+  color: black;
+  text-align: left;
+  margin-bottom: 10%;
+
+  .home-map__box {
+    @extend .row;
+    background: white;
+    border-radius: 1em;
+    width: 80%;
+    margin: 0 10% 20%;
+  }
+
+  .home-map__stats {
+    @extend .col-md-4;
+    @extend .offset-md-8;
+    padding: 3rem;
+    text-align: left;
+
+    h3 {
+      @extend .area-title;
+    }
+    ul {
+      text-align: left;
+      padding-left: 1rem;
+      li {
+        span {
+          font-family: "lft_etica";
+        }
       }
     }
+  }
+
+  img {
+    width: 50%;
+    margin-bottom: -40%;
+    margin-left: 15%;
   }
 }
 

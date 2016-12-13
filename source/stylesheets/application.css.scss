@@ -15,6 +15,14 @@ h1,h2,h3,h4,h5,h6 {
     font-family: "lft_etica";
     text-transform: uppercase;
   }
+  &.area-title {
+    display: inline-block;
+    color: white;
+    background: black;
+    box-shadow: -5px 5px $brand-primary;
+    text-transform: uppercase;
+    padding: 4px;
+  }
 }
 
 .btn.btn-primary {
