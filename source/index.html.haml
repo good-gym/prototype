@@ -1,3 +1,43 @@
+---
+no_header: true
+---
+
+.home-splash
+  .home-splash__login
+    %i.fa.fa-grav
+    = link_to("Sign in", login_path, class: "")
+
+  .home-splash__headline
+    %p= image_tag("goodgym_white.png")
+    %h1 Do good, get fit
+    %p
+      We're a community of runners that combines getting fit with doing good.
+      %br
+      Join us and find your reason to run.
+
+  .home-splash__reasons
+    .row
+      .home-splash__reason
+        = link_to("/missions", class: "home-splash__reason-box") do
+          .home-splash__reason-heading
+            = image_tag "missions.jpg"
+            %h2 Run Missions
+          %p Run to help older people with one-off tasks
+      .home-splash__reason.home-splash__reason--coaches
+        = link_to("/coaches", class: "home-splash__reason-box") do
+          .home-splash__reason-heading
+            = image_tag "coach.jpg"
+            %h2 Coach Run
+          .home-splash__reason-body
+            %p Run regularly to see an isolated older person
+      .home-splash__reason
+        = link_to("/group-runs", class: "home-splash__reason-box") do
+          .home-splash__reason-heading
+            = image_tag "group-run.jpg"
+            %h2 Group Run
+          .home-splash__reason-body
+            %p Run with a group to help community projects
+
 .about-goodgym
   .row
     .about-goodgym__logo

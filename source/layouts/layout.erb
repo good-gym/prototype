@@ -16,9 +16,11 @@
   </head>
 
   <body>
-    <div class="container">
-      <%= partial :header %>
-    </div>
+    <% if current_page.metadata[:no_header] == false %>
+      <div class="container">
+        <%= partial :header %>
+      </div>
+    <% end %>
 
     <% if current_page.metadata[:page][:wide] == false %>
       <div class="container">
